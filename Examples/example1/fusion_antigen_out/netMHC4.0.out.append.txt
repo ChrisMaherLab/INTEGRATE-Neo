@@ -1,0 +1,288 @@
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 8 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1/fusion_antigen_out/tmp/netMHC4.0.k8.fasta
+# Wed Aug 24 11:27:26 2016
+# User: jzhang
+# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1
+# Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
+# -a       HLA-C0702            HLA allele name
+# -l       8                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+# Command line parameters set to:
+#	[-a line]            HLA-C0702            HLA allele name
+#	[-f filename]                             Input file (by default in FASTA format)
+#	[-p]                 0                    Switch on if input is a list of peptides (Peptide format)
+#	[-l string]          8                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+#	[-s]                 0                    Sort output on decreasing affinity
+#	[-rth float]         0.500000             Threshold for high binding peptides (%Rank)
+#	[-rlt float]         2.000000             Threshold for low binding peptides (%Rank)
+#	[-listMHC]           0                    Print list of alleles included in netMHC
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHC_out.xls       File name for xls output
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-hlalist filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/allelelist File with covered HLA names
+#	[-rdir filename]     /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64 Home directory for NetMHC
+#	[-tdir filename]     /tmp                 Temporary directory (Default $$)
+#	[-syn filename]      /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/synlists/%s.synlist Format of synlist file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-version filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/version File with version information
+#	[-w]                 0                    w option for webface
+
+# NetMHC version 4.0
+
+# Input is in FSA format
+
+# Peptide length 8
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702     KALAFVYS    KALAFVYS-      0      8      1      0      0     KALAFVYS               1         0.012     43823.16    60.00
+    1    HLA-C0702     ALAFVYSA    -ALAFVYSA      0      0      1      0      0     ALAFVYSA               1         0.010     44994.54    65.00
+    2    HLA-C0702     LAFVYSAA    LAFVYSAA-      0      8      1      0      0     LAFVYSAA               1         0.011     44374.25    60.00
+    3    HLA-C0702     AFVYSAAS    -AFVYSAAS      0      0      1      0      0     AFVYSAAS               1         0.011     44245.29    60.00
+    4    HLA-C0702     FVYSAASP    FVYSAASP-      0      8      1      0      0     FVYSAASP               1         0.046     30302.16    17.00
+    5    HLA-C0702     VYSAASPL    VY-SAASPL      0      2      1      0      0     VYSAASPL               1         0.147     10245.61     3.50
+    6    HLA-C0702     YSAASPLH    YSAASPL-H      0      7      1      0      0     YSAASPLH               1         0.019     40912.92    41.00
+-----------------------------------------------------------------------------------
+
+Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702     EGIPVAEV    EGIP-VAEV      0      4      1      0      0     EGIPVAEV               2         0.010     45100.78    65.00
+    1    HLA-C0702     GIPVAEVE    -GIPVAEVE      0      0      1      0      0     GIPVAEVE               2         0.007     46444.81    80.00
+    2    HLA-C0702     IPVAEVEV    -IPVAEVEV      0      0      1      0      0     IPVAEVEV               2         0.005     47352.05    90.00
+    3    HLA-C0702     PVAEVEVQ    PVAEVEVQ-      0      8      1      0      0     PVAEVEVQ               2         0.005     47404.36    95.00
+    4    HLA-C0702     VAEVEVQL    VA-EVEVQL      0      2      1      0      0     VAEVEVQL               2         0.016     42109.80    46.00
+    5    HLA-C0702     AEVEVQLL    AEVEVQL-L      0      7      1      0      0     AEVEVQLL               2         0.015     42596.47    49.00
+    6    HLA-C0702     EVEVQLLQ    EV-EVQLLQ      0      2      1      0      0     EVEVQLLQ               2         0.006     47100.66    90.00
+-----------------------------------------------------------------------------------
+
+Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 9 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1/fusion_antigen_out/tmp/netMHC4.0.k9.fasta
+# Wed Aug 24 11:27:27 2016
+# User: jzhang
+# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1
+# Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
+# -a       HLA-C0702            HLA allele name
+# -l       9                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+# Command line parameters set to:
+#	[-a line]            HLA-C0702            HLA allele name
+#	[-f filename]                             Input file (by default in FASTA format)
+#	[-p]                 0                    Switch on if input is a list of peptides (Peptide format)
+#	[-l string]          9                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+#	[-s]                 0                    Sort output on decreasing affinity
+#	[-rth float]         0.500000             Threshold for high binding peptides (%Rank)
+#	[-rlt float]         2.000000             Threshold for low binding peptides (%Rank)
+#	[-listMHC]           0                    Print list of alleles included in netMHC
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHC_out.xls       File name for xls output
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-hlalist filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/allelelist File with covered HLA names
+#	[-rdir filename]     /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64 Home directory for NetMHC
+#	[-tdir filename]     /tmp                 Temporary directory (Default $$)
+#	[-syn filename]      /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/synlists/%s.synlist Format of synlist file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-version filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/version File with version information
+#	[-w]                 0                    w option for webface
+
+# NetMHC version 4.0
+
+# Input is in FSA format
+
+# Peptide length 9
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702    LKALAFVYS    LKALAFVYS      0      0      0      0      0    LKALAFVYS               1         0.011     44294.14    60.00
+    1    HLA-C0702    KALAFVYSA    KALAFVYSA      0      0      0      0      0    KALAFVYSA               1         0.050     29027.47    16.00
+    2    HLA-C0702    ALAFVYSAA    ALAFVYSAA      0      0      0      0      0    ALAFVYSAA               1         0.023     39018.84    34.00
+    3    HLA-C0702    LAFVYSAAS    LAFVYSAAS      0      0      0      0      0    LAFVYSAAS               1         0.045     30844.32    18.00
+    4    HLA-C0702    AFVYSAASP    AFVYSAASP      0      0      0      0      0    AFVYSAASP               1         0.018     41161.56    42.00
+    5    HLA-C0702    FVYSAASPL    FVYSAASPL      0      0      0      0      0    FVYSAASPL               1         0.484       266.88     0.09 <= SB
+    6    HLA-C0702    VYSAASPLH    VYSAASPLH      0      0      0      0      0    VYSAASPLH               1         0.087     19512.58     8.00
+    7    HLA-C0702    YSAASPLHM    YSAASPLHM      0      0      0      0      0    YSAASPLHM               1         0.207      5351.29     1.70 <= WB
+-----------------------------------------------------------------------------------
+
+Protein 1. Allele HLA-C0702. Number of high binders 1. Number of weak binders 1. Number of peptides 8
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702    PEGIPVAEV    PEGIPVAEV      0      0      0      0      0    PEGIPVAEV               2         0.022     39229.64    35.00
+    1    HLA-C0702    EGIPVAEVE    EGIPVAEVE      0      0      0      0      0    EGIPVAEVE               2         0.031     35653.23    25.00
+    2    HLA-C0702    GIPVAEVEV    GIPVAEVEV      0      0      0      0      0    GIPVAEVEV               2         0.016     41835.97    45.00
+    3    HLA-C0702    IPVAEVEVQ    IPVAEVEVQ      0      0      0      0      0    IPVAEVEVQ               2         0.011     44617.85    65.00
+    4    HLA-C0702    PVAEVEVQL    PVAEVEVQL      0      0      0      0      0    PVAEVEVQL               2         0.067     24345.99    11.00
+    5    HLA-C0702    VAEVEVQLL    VAEVEVQLL      0      0      0      0      0    VAEVEVQLL               2         0.037     33584.00    21.00
+    6    HLA-C0702    AEVEVQLLQ    AEVEVQLLQ      0      0      0      0      0    AEVEVQLLQ               2         0.021     39747.04    36.00
+    7    HLA-C0702    EVEVQLLQH    EVEVQLLQH      0      0      0      0      0    EVEVQLLQH               2         0.019     40608.18    39.00
+-----------------------------------------------------------------------------------
+
+Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 10 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1/fusion_antigen_out/tmp/netMHC4.0.k10.fasta
+# Wed Aug 24 11:27:27 2016
+# User: jzhang
+# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1
+# Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
+# -a       HLA-C0702            HLA allele name
+# -l       10                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+# Command line parameters set to:
+#	[-a line]            HLA-C0702            HLA allele name
+#	[-f filename]                             Input file (by default in FASTA format)
+#	[-p]                 0                    Switch on if input is a list of peptides (Peptide format)
+#	[-l string]          10                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+#	[-s]                 0                    Sort output on decreasing affinity
+#	[-rth float]         0.500000             Threshold for high binding peptides (%Rank)
+#	[-rlt float]         2.000000             Threshold for low binding peptides (%Rank)
+#	[-listMHC]           0                    Print list of alleles included in netMHC
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHC_out.xls       File name for xls output
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-hlalist filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/allelelist File with covered HLA names
+#	[-rdir filename]     /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64 Home directory for NetMHC
+#	[-tdir filename]     /tmp                 Temporary directory (Default $$)
+#	[-syn filename]      /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/synlists/%s.synlist Format of synlist file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-version filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/version File with version information
+#	[-w]                 0                    w option for webface
+
+# NetMHC version 4.0
+
+# Input is in FSA format
+
+# Peptide length 10
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702   LLKALAFVYS    LLKALAFVY      0      0      0      0      0    LLKALAFVY               1         0.034     34462.30    23.00
+    1    HLA-C0702   LKALAFVYSA    LKLAFVYSA      0      0      0      2      1   LKALAFVYSA               1         0.010     44936.62    65.00
+    2    HLA-C0702   KALAFVYSAA    KALAFVYAA      0      0      0      7      1   KALAFVYSAA               1         0.009     45580.55    70.00
+    3    HLA-C0702   ALAFVYSAAS    ALFVYSAAS      0      0      0      2      1   ALAFVYSAAS               1         0.007     46387.04    80.00
+    4    HLA-C0702   LAFVYSAASP    LAFVYSAAS      0      0      0      0      0    LAFVYSAAS               1         0.006     46719.99    85.00
+    5    HLA-C0702   AFVYSAASPL    FVYSAASPL      1      0      0      0      0    FVYSAASPL               1         0.140     11025.11     4.00
+    6    HLA-C0702   FVYSAASPLH    FVYSAASPL      0      0      0      0      0    FVYSAASPL               1         0.135     11659.28     4.00
+    7    HLA-C0702   VYSAASPLHM    VYSASPLHM      0      0      0      3      1   VYSAASPLHM               1         0.073     22629.34     9.50
+    8    HLA-C0702   YSAASPLHML    YAASPLHML      0      0      0      1      1   YSAASPLHML               1         0.038     33068.38    21.00
+-----------------------------------------------------------------------------------
+
+Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702   PPEGIPVAEV    PPEGIPVAV      0      0      0      8      1   PPEGIPVAEV               2         0.005     47479.81    95.00
+    1    HLA-C0702   PEGIPVAEVE    EGIPVAEVE      1      0      0      0      0    EGIPVAEVE               2         0.005     47302.91    90.00
+    2    HLA-C0702   EGIPVAEVEV    EGIPVAVEV      0      0      0      6      1   EGIPVAEVEV               2         0.007     46363.98    80.00
+    3    HLA-C0702   GIPVAEVEVQ    GIPVAEVEV      0      0      0      0      0    GIPVAEVEV               2         0.004     47875.47    99.00
+    4    HLA-C0702   IPVAEVEVQL    IVAEVEVQL      0      0      0      1      1   IPVAEVEVQL               2         0.010     44813.31    65.00
+    5    HLA-C0702   PVAEVEVQLL    PVAEVEVQL      0      0      0      0      0    PVAEVEVQL               2         0.009     45264.57    70.00
+    6    HLA-C0702   VAEVEVQLLQ    VAEVEVQLL      0      0      0      0      0    VAEVEVQLL               2         0.006     46874.42    85.00
+    7    HLA-C0702   AEVEVQLLQH    AEVEVQLQH      0      0      0      6      1   AEVEVQLLQH               2         0.005     47137.37    90.00
+    8    HLA-C0702   EVEVQLLQHQ    EVEVQLLQH      0      0      0      0      0    EVEVQLLQH               2         0.005     47622.84    95.00
+-----------------------------------------------------------------------------------
+
+Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 11 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1/fusion_antigen_out/tmp/netMHC4.0.k11.fasta
+# Wed Aug 24 11:27:27 2016
+# User: jzhang
+# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example1
+# Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
+# -a       HLA-C0702            HLA allele name
+# -l       11                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+# Command line parameters set to:
+#	[-a line]            HLA-C0702            HLA allele name
+#	[-f filename]                             Input file (by default in FASTA format)
+#	[-p]                 0                    Switch on if input is a list of peptides (Peptide format)
+#	[-l string]          11                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
+#	[-s]                 0                    Sort output on decreasing affinity
+#	[-rth float]         0.500000             Threshold for high binding peptides (%Rank)
+#	[-rlt float]         2.000000             Threshold for low binding peptides (%Rank)
+#	[-listMHC]           0                    Print list of alleles included in netMHC
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHC_out.xls       File name for xls output
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-hlalist filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/allelelist File with covered HLA names
+#	[-rdir filename]     /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64 Home directory for NetMHC
+#	[-tdir filename]     /tmp                 Temporary directory (Default $$)
+#	[-syn filename]      /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/synlists/%s.synlist Format of synlist file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-version filename]  /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/data/version File with version information
+#	[-w]                 0                    w option for webface
+
+# NetMHC version 4.0
+
+# Input is in FSA format
+
+# Peptide length 11
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702  VLLKALAFVYS    LLKALAFVY      1      0      0      0      0    LLKALAFVY               1         0.028     36876.16    28.00
+    1    HLA-C0702  LLKALAFVYSA    LLKALAFVY      0      0      0      0      0    LLKALAFVY               1         0.027     37395.68    29.00
+    2    HLA-C0702  LKALAFVYSAA    LKLAFVYSA      0      0      0      2      1   LKALAFVYSA               1         0.008     45695.13    70.00
+    3    HLA-C0702  KALAFVYSAAS    KALAFVYAS      0      0      0      7      2  KALAFVYSAAS               1         0.007     46386.05    80.00
+    4    HLA-C0702  ALAFVYSAASP    ALFVYSAAS      0      0      0      2      1   ALAFVYSAAS               1         0.005     47131.75    90.00
+    5    HLA-C0702  LAFVYSAASPL    FVYSAASPL      2      0      0      0      0    FVYSAASPL               1         0.107     15673.64     6.00
+    6    HLA-C0702  AFVYSAASPLH    FVYSAASPL      1      0      0      0      0    FVYSAASPL               1         0.098     17403.90     6.50
+    7    HLA-C0702  FVYSAASPLHM    FVYSAASPL      0      0      0      0      0    FVYSAASPL               1         0.114     14599.41     5.50
+    8    HLA-C0702  VYSAASPLHML    VYSASPLHM      0      0      0      3      1   VYSAASPLHM               1         0.059     26296.80    13.00
+    9    HLA-C0702  YSAASPLHMLA    YSAASPLHM      0      0      0      0      0    YSAASPLHM               1         0.027     37392.45    29.00
+-----------------------------------------------------------------------------------
+
+Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702  RPPEGIPVAEV    RPPEGIPVV      0      0      0      8      2  RPPEGIPVAEV               2         0.006     46873.42    85.00
+    1    HLA-C0702  PPEGIPVAEVE    EGIPVAEVE      2      0      0      0      0    EGIPVAEVE               2         0.005     47607.88    95.00
+    2    HLA-C0702  PEGIPVAEVEV    EGIPVAVEV      1      0      0      6      1   EGIPVAEVEV               2         0.006     47030.91    85.00
+    3    HLA-C0702  EGIPVAEVEVQ    EGIPVAVEV      0      0      0      6      1   EGIPVAEVEV               2         0.006     46988.68    85.00
+    4    HLA-C0702  GIPVAEVEVQL    GIPEVEVQL      0      0      0      3      2  GIPVAEVEVQL               2         0.009     45538.65    70.00
+    5    HLA-C0702  IPVAEVEVQLL    IVAEVEVQL      0      0      0      1      1   IPVAEVEVQL               2         0.008     45984.28    75.00
+    6    HLA-C0702  PVAEVEVQLLQ    PVAEVEVQL      0      0      0      0      0    PVAEVEVQL               2         0.007     46329.37    80.00
+    7    HLA-C0702  VAEVEVQLLQH    VAEVEVQLL      0      0      0      0      0    VAEVEVQLL               2         0.005     47313.13    90.00
+    8    HLA-C0702  AEVEVQLLQHQ    AEVEVQLQH      0      0      0      6      1   AEVEVQLLQH               2         0.005     47591.43    95.00
+    9    HLA-C0702  EVEVQLLQHQY    VEVQLQHQY      1      0      0      4      1   VEVQLLQHQY               2         0.009     45404.34    70.00
+-----------------------------------------------------------------------------------
+
+Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+
+-----------------------------------------------------------------------------------
