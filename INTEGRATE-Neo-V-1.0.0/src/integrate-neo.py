@@ -56,7 +56,7 @@ def usage():
         -k/--keep-tmp     [Optional]
                           [if set, keeps the tmp folder under the output dir                                 ] 
 
-    Version:                    0.0.5
+    Version:                    1.0.0
           """
 
 #parameters
@@ -253,6 +253,7 @@ def main(argv):
                 +" -c "+outputDir+"/"+"HLAminer_HPRA.csv" \
                 +" -o "+outputDir
             print cmd
+            p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT, close_fds=True)
             output = p.stdout.read()
             print output
             hlaAllele=outputDir+"/"+"HLAminer_alleles.tsv"
