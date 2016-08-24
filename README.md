@@ -2,16 +2,14 @@
 
 INTEGRATE-Neo is a gene fusion neoantigen discovering tool using next-generation sequencing data. It is written in C++ and Python.
 
-INTEGRATE-Neo runs in UNIX/Linux environment. We assume that you know how to use one of these operating systems.You may already have the following in the system: 
-
   - Python
   - Perl
   - awk
   - GCC
 
-If not, please install these languages or tools. You may also need to intall some prerequisite tools:
+If not, please install these languages or tools. You may also need to install some prerequisite tools:
 
-  - [BWA](https://sourceforge.net/projects/bio-bwa/files/)
+  - [BWA](https://sourceforge.net/projects/bio-bwa)
   - [HLAminer v1.3](http://www.bcgsc.ca/platform/bioinfo/software/hlaminer)
   - [NetMHC v4.0](http://www.cbs.dtu.dk/services/NetMHC/output.php)
 
@@ -23,7 +21,7 @@ To compile the C++ part of this pipeline, you may need to install [CMAKE](https:
 
 Download INTEGRATE-Neo at https://github.com/ChrisMaherLab/INTEGRATE-Neo.
 
-Run the installation script
+Run the installation script:
 
 ```sh
 $ cd INTEGRATE-Neo-V-1.0.0
@@ -31,7 +29,7 @@ $ chmod +x install.sh
 $ ./install.sh -o /opt/bin/
 ```
 
-Note that you can choose where ever you like to install the software. It can be different from "/opt/bin/". 
+Note that you can choose wherever you like to install the software. It can be different from "/opt/bin/". 
 
 Now you have installed:
 
@@ -45,11 +43,11 @@ together with the modules of integrate-neo that can be used as standalone tools:
   - runAddNetMHC4Result
   - runNetMHC4WithSMCRNABedpe
 
-A setup.ini and a rule.txt file are also at your destination directory now. If you don't like them here, copy them to the place you like. But remember to the --setup-file and --rule-file options to run integrate-neo if you moved them.
+A setup.ini and a rule.txt file are also at your destination directory now. If you don't like them to be there, copy them to the place you like. But remember to use the --setup-file and --rule-file options to run integrate-neo if you moved them.
 
 ### setup
 
-Remember to edit the setup.ini file before your first running the pipline. The one in the installation packages are using example paths like "/SOME/PATH/...".
+Remember to edit the setup.ini file before your first running the pipeline. The one in the installation packages are using example paths like "/SOME/PATH/...".
 
 ### input
 
@@ -60,7 +58,7 @@ $ ./integrate-neo.py
 ```
 you can see the 14 parameters and explanations. 
 
-The following are the requried options:
+The following are the required options:
 
         -1/--fastq1       
         -2/--fastq2       
@@ -70,9 +68,9 @@ The following are the requried options:
 
 The --fastq[1/2] and --reference options are clear enough, the FASTQ and FASTA formats for sequencing reads and human reference genome. 
 
-The --fusion-bedpe option requires a bedpe format for gene fusions. This BEDPE format follows the standardized format provided by The ICGC-TCGA DREAM Somatic Mutation Calling - RNA Challenge ([SMC-RNA](http://dreamchallenges.org/)).
+The --fusion-bedpe option requires a BEDPE format for gene fusions. This BEDPE format follows the standardized format provided by The ICGC-TCGA DREAM Somatic Mutation Calling - RNA Challenge ([SMC-RNA](http://dreamchallenges.org/)).
 
-The --gene-model option, there are a couple of ways to get a file for it:
+The --gene-model option requires a gene annotation file. There are a couple of ways to get a file for the option:
 
  - an example (annot.enseml.txt) can be found at [here](https://sourceforge.net/projects/integrate-fusion/files/).
 
@@ -93,11 +91,21 @@ $ ./cat tmp.txt >> annot.enseml.GRCh37.txt
 ### output
 
 The output is in BEDPE format, the first 11 columns follows the SMC-RNA format. columns 12-19 are:
+ 
+ - Epitope sequence
  - Epitope Affinity (nanoMolar)	
  - HLA allele	
  - HLA category	
  - HLA score	
  - HLA e-value	
  - HLA confidence
- 
+
+### Important
+
+The chromosome names in the reference genome, the gene models, and the fusions should be consistent. 
+
+### Examples
+
+Examples are provided for you to test the code.
+
 ### Enjoy!
