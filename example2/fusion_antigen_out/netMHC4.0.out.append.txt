@@ -1,7 +1,7 @@
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 8 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2/fusion_antigen_out/tmp/netMHC4.0.k8.fasta
-# Wed Aug 24 11:32:19 2016
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 8 /gscmnt/gc2601/maherlab/jzhang/Examples/example2/fusion_antigen_out/tmp/netMHC4.0.k8.fasta
+# Fri Aug 26 15:02:46 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2
+# PWD : /gscmnt/gc2601/maherlab/jzhang/Examples/example2
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       8                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -67,10 +67,27 @@ Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
 
 -----------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 9 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2/fusion_antigen_out/tmp/netMHC4.0.k9.fasta
-# Wed Aug 24 11:32:19 2016
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702     EGIPVAEP    EGIPVAEP-      0      8      1      0      0     EGIPVAEP               3         0.009     45531.78    70.00
+    1    HLA-C0702     GIPVAEPT    -GIPVAEPT      0      0      1      0      0     GIPVAEPT               3         0.009     45211.70    70.00
+    2    HLA-C0702     IPVAEPTC    -IPVAEPTC      0      0      1      0      0     IPVAEPTC               3         0.005     47342.34    90.00
+    3    HLA-C0702     PVAEPTCE    PVAEPTCE-      0      8      1      0      0     PVAEPTCE               3         0.005     47230.27    90.00
+    4    HLA-C0702     VAEPTCES    VAEPTCES-      0      8      1      0      0     VAEPTCES               3         0.007     46458.38    80.00
+    5    HLA-C0702     AEPTCESQ    -AEPTCESQ      0      0      1      0      0     AEPTCESQ               3         0.006     46861.24    85.00
+    6    HLA-C0702     EPTCESQL    -EPTCESQL      0      0      1      0      0     EPTCESQL               3         0.011     44476.16    60.00
+-----------------------------------------------------------------------------------
+
+Protein 3. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 9 /gscmnt/gc2601/maherlab/jzhang/Examples/example2/fusion_antigen_out/tmp/netMHC4.0.k9.fasta
+# Fri Aug 26 15:02:46 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2
+# PWD : /gscmnt/gc2601/maherlab/jzhang/Examples/example2
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       9                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -138,10 +155,28 @@ Protein 1. Allele HLA-C0702. Number of high binders 1. Number of weak binders 1.
 Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
 
 -----------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 10 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2/fusion_antigen_out/tmp/netMHC4.0.k10.fasta
-# Wed Aug 24 11:32:19 2016
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702    PEGIPVAEP    PEGIPVAEP      0      0      0      0      0    PEGIPVAEP               3         0.018     41194.09    42.00
+    1    HLA-C0702    EGIPVAEPT    EGIPVAEPT      0      0      0      0      0    EGIPVAEPT               3         0.044     31070.40    18.00
+    2    HLA-C0702    GIPVAEPTC    GIPVAEPTC      0      0      0      0      0    GIPVAEPTC               3         0.020     40286.09    38.00
+    3    HLA-C0702    IPVAEPTCE    IPVAEPTCE      0      0      0      0      0    IPVAEPTCE               3         0.010     44777.92    65.00
+    4    HLA-C0702    PVAEPTCES    PVAEPTCES      0      0      0      0      0    PVAEPTCES               3         0.022     39612.23    36.00
+    5    HLA-C0702    VAEPTCESQ    VAEPTCESQ      0      0      0      0      0    VAEPTCESQ               3         0.032     35485.82    25.00
+    6    HLA-C0702    AEPTCESQL    AEPTCESQL      0      0      0      0      0    AEPTCESQL               3         0.051     28941.55    15.00
+    7    HLA-C0702    EPTCESQLL    EPTCESQLL      0      0      0      0      0    EPTCESQLL               3         0.023     39037.84    34.00
+-----------------------------------------------------------------------------------
+
+Protein 3. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 10 /gscmnt/gc2601/maherlab/jzhang/Examples/example2/fusion_antigen_out/tmp/netMHC4.0.k10.fasta
+# Fri Aug 26 15:02:46 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2
+# PWD : /gscmnt/gc2601/maherlab/jzhang/Examples/example2
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       10                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -211,10 +246,29 @@ Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
 
 -----------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 11 /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2/fusion_antigen_out/tmp/netMHC4.0.k11.fasta
-# Wed Aug 24 11:32:20 2016
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702   PPEGIPVAEP    PPEGIPVAE      0      0      0      0      0    PPEGIPVAE               3         0.004     47809.22    99.00
+    1    HLA-C0702   PEGIPVAEPT    EGIPVAEPT      1      0      0      0      0    EGIPVAEPT               3         0.007     46537.88    80.00
+    2    HLA-C0702   EGIPVAEPTC    EGIPVAPTC      0      0      0      6      1   EGIPVAEPTC               3         0.008     46069.95    75.00
+    3    HLA-C0702   GIPVAEPTCE    GIPVAEPTC      0      0      0      0      0    GIPVAEPTC               3         0.004     47842.84    99.00
+    4    HLA-C0702   IPVAEPTCES    PVAEPTCES      1      0      0      0      0    PVAEPTCES               3         0.004     47867.69    99.00
+    5    HLA-C0702   PVAEPTCESQ    VAEPTCESQ      1      0      0      0      0    VAEPTCESQ               3         0.005     47290.10    90.00
+    6    HLA-C0702   VAEPTCESQL    VAEPTCSQL      0      0      0      6      1   VAEPTCESQL               3         0.015     42299.32    47.00
+    7    HLA-C0702   AEPTCESQLL    AEPTCESQL      0      0      0      0      0    AEPTCESQL               3         0.008     45864.54    75.00
+    8    HLA-C0702   EPTCESQLLL    PTCESQLLL      1      0      0      0      0    PTCESQLLL               3         0.009     45153.05    65.00
+-----------------------------------------------------------------------------------
+
+Protein 3. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
+
+-----------------------------------------------------------------------------------
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 11 /gscmnt/gc2601/maherlab/jzhang/Examples/example2/fusion_antigen_out/tmp/netMHC4.0.k11.fasta
+# Fri Aug 26 15:02:47 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/pipeline/tmp_ex1/example2
+# PWD : /gscmnt/gc2601/maherlab/jzhang/Examples/example2
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       11                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -284,5 +338,25 @@ Protein 1. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 -----------------------------------------------------------------------------------
 
 Protein 2. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702  RPPEGIPVAEP    RPPEGPVAE      0      0      0      5      1   RPPEGIPVAE               3         0.005     47142.99    90.00
+    1    HLA-C0702  PPEGIPVAEPT    EGIPVAEPT      2      0      0      0      0    EGIPVAEPT               3         0.006     47072.63    90.00
+    2    HLA-C0702  PEGIPVAEPTC    EGIPVAPTC      1      0      0      6      1   EGIPVAEPTC               3         0.006     46859.22    85.00
+    3    HLA-C0702  EGIPVAEPTCE    EGIPVAPTC      0      0      0      6      1   EGIPVAEPTC               3         0.006     46893.71    85.00
+    4    HLA-C0702  GIPVAEPTCES    GIPVAEPTC      0      0      0      0      0    GIPVAEPTC               3         0.004     47945.45    99.00
+    5    HLA-C0702  IPVAEPTCESQ    VAEPTCESQ      2      0      0      0      0    VAEPTCESQ               3         0.004     47715.68    95.00
+    6    HLA-C0702  PVAEPTCESQL    VAEPTCSQL      1      0      0      6      1   VAEPTCESQL               3         0.011     44367.53    60.00
+    7    HLA-C0702  VAEPTCESQLL    VAEPTCSQL      0      0      0      6      1   VAEPTCESQL               3         0.011     44380.49    60.00
+    8    HLA-C0702  AEPTCESQLLL    PTCESQLLL      2      0      0      0      0    PTCESQLLL               3         0.009     45410.73    70.00
+    9    HLA-C0702  EPTCESQLLLH    PTCESQLLL      1      0      0      0      0    PTCESQLLL               3         0.007     46308.82    80.00
+-----------------------------------------------------------------------------------
+
+Protein 3. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
 
 -----------------------------------------------------------------------------------
