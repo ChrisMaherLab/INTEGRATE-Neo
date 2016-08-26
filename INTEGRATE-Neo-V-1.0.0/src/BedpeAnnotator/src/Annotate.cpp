@@ -58,6 +58,11 @@ int Annotate::assignJunctions(Gene& g, Reference & ref, Bedpe & bdpe) {
                     fjt.p5=j1[x];
                     fjt.p3=j2[y];
 
+                    if(b.strand1.compare("-")==0)
+                        fjt.p5.pos1=fjt.p5.pos1+1;
+                    if(b.strand2.compare("+")==0)
+                        fjt.p3.pos1=fjt.p3.pos1+1;
+
                 }
                 else if(j1[x].is5p==0 && j2[y].is5p==1)
                 {
@@ -65,6 +70,11 @@ int Annotate::assignJunctions(Gene& g, Reference & ref, Bedpe & bdpe) {
                     getRefExonSeq(ref,j1[x].chr,j1[x].pos1+1,j1[x].pos2,j1[x].strand,fjt.seq2);
                     fjt.p5=j2[y];
                     fjt.p3=j1[x];
+
+                    if(b.strand2.compare("-")==0)
+                        fjt.p5.pos1=fjt.p5.pos1+1;
+                    if(b.strand1.compare("+")==0)
+                        fjt.p3.pos1=fjt.p3.pos1+1;
 
                 }
                 fjtvec.push_back(fjt);
@@ -360,9 +370,15 @@ int Annotate::getCanonical(fusion_junction_t & fjt, bedpe_t & b)
         a.strand2="+";
     else
         a.strand2="-";
-    return bp.isBedpeSame(a,b);
-     
+    
+    int res=bp.isBedpeSame(a,b);
+    if(res==1)
+    {
+        b.start1=a.start1;
+        b.end1=a.end1;
+        b.start2=a.start2;
+        b.end2=a.end2;
+    }
+    return res; 
 }
-
-
 
