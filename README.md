@@ -49,6 +49,8 @@ A setup.ini and a rule.txt file are also at your destination directory now. If y
 
 Remember to edit the setup.ini file before your first running the pipeline. The one in the installation packages are using example paths like "/SOME/PATH/...".
 
+For the HLAminer reference HLA alleles, i.e. HLA_ABC_CDS.fasta, remember to index it with bwa before the first run.
+
 ### input
 
 If you type the following (or python ./integrate-neo.py --help): 
