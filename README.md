@@ -24,7 +24,7 @@ Download INTEGRATE-Neo at https://github.com/ChrisMaherLab/INTEGRATE-Neo.
 Run the installation script:
 
 ```sh
-$ cd INTEGRATE-Neo-V-1.0.0
+$ cd INTEGRATE-Neo-V-1.1.0
 $ chmod +x install.sh
 $ ./install.sh -o /opt/bin/
 ```
@@ -72,24 +72,34 @@ The --fastq[1/2] and --reference options are clear enough, the FASTQ and FASTA f
 
 The --fusion-bedpe option requires a BEDPE format for gene fusions. This BEDPE format follows the standardized format provided by The ICGC-TCGA DREAM Somatic Mutation Calling - RNA Challenge ([SMC-RNA](http://dreamchallenges.org/)).
 
-The --gene-model option requires a gene annotation file. There are a couple of ways to get a file for the option:
+The --gene-model option requires a gene annotation genePhred file.
+  
+Download the gtf file from Ensembl:
 
- - an example (annot.enseml.txt) can be found at [here](https://sourceforge.net/projects/integrate-fusion/files/).
+GRCh37, e.g., v75: ftp://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
 
- - generate using Table Brower using [UCSC Genome Browser](http://genome.ucsc.edu/). 
+GRCh38, e.g., v86: ftp://ftp.ensembl.org/pub/release-86/gtf/homo_sapiens/Homo_sapiens.GRCh38.86.gtf.gz
 
- - generate from GTF as follows:
- 
-a. Download the GTF file at ftp://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz.
-
-b. Run the following commands:
+and run the following command for v75:
 
 ```sh
+$ gunzip Homo_sapiens.GRCh37.75.gtf.gz
 $ ./gtfToGenePred -genePredExt -geneNameAsName2 Homo_sapiens.GRCh37.75.gtf Homo_sapiens.GRCh37.75.genePred
-$ ./cut -f 1-10,12 Homo_sapiens.GRCh37.75.genePred > tmp.txt
-$ ./echo -e "#GRCh37.ensGene.name\tGRCh37.ensGene.chrom\tGRCh37.ensGene.strand\tGRCh37.ensGene.txStart\tGRCh37.ensGene.txEnd\tGRCh37.ensGene.cdsStart\tGRCh37.ensGene.cdsEnd\tGRCh37.ensGene.exonCount\tGRCh37.ensGene.exonStarts\tGRCh37.ensGene.exonEnds\tGRCh37.ensemblToGeneName.value" > annot.enseml.GRCh37.txt
-$ ./cat tmp.txt >> annot.enseml.GRCh37.txt
 ```
+
+for v86:
+
+```sh
+$ gunzip Homo_sapiens.GRCh38.86.gtf.gz.
+$ ./gtfToGenePred -genePredExt -geneNameAsName2 Homo_sapiens.GRCh38.86.gtf Homo_sapiens.GRCh38.86.genePred
+```
+
+FASTA files can also be downloaded at Ensembl:
+
+v75: ftp://ftp.ensembl.org/pub/release-75/fasta/homo_sapiens/dna/Homo_sapiens.GRCh37.75.dna_sm.primary_assembly.fa.gz
+
+v86: ftp://ftp.ensembl.org/pub/release-86/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+
 ### output
 
 The output is in BEDPE format, the first 11 columns follows the SMC-RNA format. columns 12-19 are:
