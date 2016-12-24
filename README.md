@@ -24,7 +24,7 @@ Download INTEGRATE-Neo at https://github.com/ChrisMaherLab/INTEGRATE-Neo.
 Run the installation script:
 
 ```sh
-$ cd INTEGRATE-Neo-V-1.1.0
+$ cd INTEGRATE-Neo-V-1.2.0
 $ chmod +x install.sh
 $ ./install.sh -o /opt/bin/
 ```
@@ -121,3 +121,14 @@ The chromosome names in the reference genome, the gene models, and the fusions s
 Examples are provided for you to test the code.
 
 ### Enjoy!
+
+### Release notes:
+
+12-23-2016: INTEGRATE-Neo v 1.2.0
+
+updated BedpeAnnotator to v 0.2.0, which includes a new column for transcript Ids, a new column for lengths of nucleotides in the coding regions at 5p transcripts, a new column for whether the peptides are in-frame, and a new column for whether the fusion transcript follows canonical dinucleotides. 
+
+
+  
+
+

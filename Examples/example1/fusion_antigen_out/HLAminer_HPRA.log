@@ -3,7 +3,7 @@ Derivation of HLA class I and II predictions from Shotgun sequence datasets
 -b NA
 -r NA
 -c NA
--a /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1/fusion_antigen_out/tmp/all.sam
+-a /gscuser/jzhang/tests/Examples/example1/fusion_antigen_out/tmp/all.sam
 -e 0
 -h /gscmnt/gc2501/maherlab/jzhang/HLAminer/HLAminer_v1.3/database/HLA_ABC_CDS.fasta
 -p /gscmnt/gc2501/maherlab/jzhang/HLAminer/HLAminer_v1.3/database/hla_nom_p.txt

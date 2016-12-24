@@ -1,7 +1,7 @@
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 8 /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k8.fasta
-# Tue Oct  4 15:45:58 2016
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 8 /gscuser/jzhang/tests/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k8.fasta
+# Sat Dec 24 00:01:05 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1
+# PWD : /gscuser/jzhang/tests/Examples/example1
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       8                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -161,13 +161,13 @@ Protein 9. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     LSQNHPLG    LSQNHPLG-      0      8      1      0      0     LSQNHPLG              10         0.009     45486.47    70.00
-    1    HLA-C0702     SQNHPLGI    SQN-HPLGI      0      3      1      0      0     SQNHPLGI              10         0.026     37728.94    30.00
-    2    HLA-C0702     QNHPLGIM    QNHPLG-IM      0      6      1      0      0     QNHPLGIM              10         0.034     34718.66    23.00
-    3    HLA-C0702     NHPLGIMA    NHPLGIMA-      0      8      1      0      0     NHPLGIMA              10         0.012     44138.19    60.00
-    4    HLA-C0702     HPLGIMAA    H-PLGIMAA      0      1      1      0      0     HPLGIMAA              10         0.009     45376.86    70.00
-    5    HLA-C0702     PLGIMAAL    PL-GIMAAL      0      2      1      0      0     PLGIMAAL              10         0.018     40964.30    41.00
-    6    HLA-C0702     LGIMAALR    LGIMAALR-      0      8      1      0      0     LGIMAALR              10         0.004     47772.48    99.00
+    0    HLA-C0702     EPLMLRWK    -EPLMLRWK      0      0      1      0      0     EPLMLRWK              10         0.004     47698.63    95.00
+    1    HLA-C0702     PLMLRWKP    PLMLRWKP-      0      8      1      0      0     PLMLRWKP              10         0.010     44681.63    65.00
+    2    HLA-C0702     LMLRWKPS    LMLRWK-PS      0      6      1      0      0     LMLRWKPS              10         0.017     41520.31    43.00
+    3    HLA-C0702     MLRWKPSS    -MLRWKPSS      0      0      1      0      0     MLRWKPSS              10         0.012     44125.75    60.00
+    4    HLA-C0702     LRWKPSSQ    LRWK-PSSQ      0      4      1      0      0     LRWKPSSQ              10         0.041     32248.64    19.00
+    5    HLA-C0702     RWKPSSQP    RWKPSSQP-      0      8      1      0      0     RWKPSSQP              10         0.064     24890.15    12.00
+    6    HLA-C0702     WKPSSQPT    W-KPSSQPT      0      1      1      0      0     WKPSSQPT              10         0.033     35129.02    24.00
 -----------------------------------------------------------------------------------
 
 Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
@@ -178,13 +178,13 @@ Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     EPLMLRWK    -EPLMLRWK      0      0      1      0      0     EPLMLRWK              11         0.004     47698.63    95.00
-    1    HLA-C0702     PLMLRWKP    PLMLRWKP-      0      8      1      0      0     PLMLRWKP              11         0.010     44681.63    65.00
-    2    HLA-C0702     LMLRWKPS    LMLRWK-PS      0      6      1      0      0     LMLRWKPS              11         0.017     41520.31    43.00
-    3    HLA-C0702     MLRWKPSS    -MLRWKPSS      0      0      1      0      0     MLRWKPSS              11         0.012     44125.75    60.00
-    4    HLA-C0702     LRWKPSSQ    LRWK-PSSQ      0      4      1      0      0     LRWKPSSQ              11         0.041     32248.64    19.00
-    5    HLA-C0702     RWKPSSQP    RWKPSSQP-      0      8      1      0      0     RWKPSSQP              11         0.064     24890.15    12.00
-    6    HLA-C0702     WKPSSQPT    W-KPSSQPT      0      1      1      0      0     WKPSSQPT              11         0.033     35129.02    24.00
+    0    HLA-C0702     SKMALNSE    SKMALNSE-      0      8      1      0      0     SKMALNSE              11         0.008     45952.95    75.00
+    1    HLA-C0702     KMALNSEA    KMALNSEA-      0      8      1      0      0     KMALNSEA              11         0.007     46158.75    75.00
+    2    HLA-C0702     MALNSEAL    MALNSE-AL      0      6      1      0      0     MALNSEAL              11         0.028     36796.84    28.00
+    3    HLA-C0702     ALNSEALS    ALNSEALS-      0      8      1      0      0     ALNSEALS              11         0.008     46096.88    75.00
+    4    HLA-C0702     LNSEALSV    -LNSEALSV      0      0      1      0      0     LNSEALSV              11         0.011     44344.50    60.00
+    5    HLA-C0702     NSEALSVV    N-SEALSVV      0      1      1      0      0     NSEALSVV              11         0.007     46386.56    80.00
+    6    HLA-C0702     SEALSVVS    SEALSVVS-      0      8      1      0      0     SEALSVVS              11         0.006     47006.47    85.00
 -----------------------------------------------------------------------------------
 
 Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
@@ -195,16 +195,16 @@ Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     SKMALNSE    SKMALNSE-      0      8      1      0      0     SKMALNSE              12         0.008     45952.95    75.00
-    1    HLA-C0702     KMALNSEA    KMALNSEA-      0      8      1      0      0     KMALNSEA              12         0.007     46158.75    75.00
-    2    HLA-C0702     MALNSEAL    MALNSE-AL      0      6      1      0      0     MALNSEAL              12         0.028     36796.84    28.00
-    3    HLA-C0702     ALNSEALS    ALNSEALS-      0      8      1      0      0     ALNSEALS              12         0.008     46096.88    75.00
-    4    HLA-C0702     LNSEALSV    -LNSEALSV      0      0      1      0      0     LNSEALSV              12         0.011     44344.50    60.00
-    5    HLA-C0702     NSEALSVV    N-SEALSVV      0      1      1      0      0     NSEALSVV              12         0.007     46386.56    80.00
-    6    HLA-C0702     SEALSVVS    SEALSVVS-      0      8      1      0      0     SEALSVVS              12         0.006     47006.47    85.00
+    0    HLA-C0702     CEERGAAG    CE-ERGAAG      0      2      1      0      0     CEERGAAG              13         0.007     46409.63    80.00
+    1    HLA-C0702     EERGAAGS    EERGAAGS-      0      8      1      0      0     EERGAAGS              13         0.006     47015.62    85.00
+    2    HLA-C0702     ERGAAGSL    ER-GAAGSL      0      2      1      0      0     ERGAAGSL              13         0.049     29506.25    16.00
+    3    HLA-C0702     RGAAGSLI    -RGAAGSLI      0      0      1      0      0     RGAAGSLI              13         0.012     43869.64    60.00
+    4    HLA-C0702     GAAGSLIS    GAAGSLIS-      0      8      1      0      0     GAAGSLIS              13         0.004     47682.64    95.00
+    5    HLA-C0702     AAGSLISC    A-AGSLISC      0      1      1      0      0     AAGSLISC              13         0.005     47435.64    95.00
+    6    HLA-C0702     AGSLISCE    AG-SLISCE      0      2      1      0      0     AGSLISCE              13         0.005     47519.91    95.00
 -----------------------------------------------------------------------------------
 
-Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
+Protein 13. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -212,13 +212,13 @@ Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     CEERGAAG    CE-ERGAAG      0      2      1      0      0     CEERGAAG              14         0.007     46409.63    80.00
-    1    HLA-C0702     EERGAAGS    EERGAAGS-      0      8      1      0      0     EERGAAGS              14         0.006     47015.62    85.00
-    2    HLA-C0702     ERGAAGSL    ER-GAAGSL      0      2      1      0      0     ERGAAGSL              14         0.049     29506.25    16.00
-    3    HLA-C0702     RGAAGSLI    -RGAAGSLI      0      0      1      0      0     RGAAGSLI              14         0.012     43869.64    60.00
-    4    HLA-C0702     GAAGSLIS    GAAGSLIS-      0      8      1      0      0     GAAGSLIS              14         0.004     47682.64    95.00
-    5    HLA-C0702     AAGSLISC    A-AGSLISC      0      1      1      0      0     AAGSLISC              14         0.005     47435.64    95.00
-    6    HLA-C0702     AGSLISCE    AG-SLISCE      0      2      1      0      0     AGSLISCE              14         0.005     47519.91    95.00
+    0    HLA-C0702     GALSQSQP    GALSQSQP-      0      8      1      0      0     GALSQSQP              14         0.007     46146.75    75.00
+    1    HLA-C0702     ALSQSQPS    ALSQSQ-PS      0      6      1      0      0     ALSQSQPS              14         0.008     45997.21    75.00
+    2    HLA-C0702     LSQSQPSL    -LSQSQPSL      0      0      1      0      0     LSQSQPSL              14         0.029     36704.20    28.00
+    3    HLA-C0702     SQSQPSLN    SQSQPSLN-      0      8      1      0      0     SQSQPSLN              14         0.008     46093.37    75.00
+    4    HLA-C0702     QSQPSLNP    QSQPSLNP-      0      8      1      0      0     QSQPSLNP              14         0.009     45389.62    70.00
+    5    HLA-C0702     SQPSLNPG    SQ-PSLNPG      0      2      1      0      0     SQPSLNPG              14         0.008     45631.41    70.00
+    6    HLA-C0702     QPSLNPGG    QPSLNPGG-      0      8      1      0      0     QPSLNPGG              14         0.004     47712.57    95.00
 -----------------------------------------------------------------------------------
 
 Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
@@ -229,13 +229,13 @@ Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     GALSQSQP    GALSQSQP-      0      8      1      0      0     GALSQSQP              15         0.007     46146.75    75.00
-    1    HLA-C0702     ALSQSQPS    ALSQSQ-PS      0      6      1      0      0     ALSQSQPS              15         0.008     45997.21    75.00
-    2    HLA-C0702     LSQSQPSL    -LSQSQPSL      0      0      1      0      0     LSQSQPSL              15         0.029     36704.20    28.00
-    3    HLA-C0702     SQSQPSLN    SQSQPSLN-      0      8      1      0      0     SQSQPSLN              15         0.008     46093.37    75.00
-    4    HLA-C0702     QSQPSLNP    QSQPSLNP-      0      8      1      0      0     QSQPSLNP              15         0.009     45389.62    70.00
-    5    HLA-C0702     SQPSLNPG    SQ-PSLNPG      0      2      1      0      0     SQPSLNPG              15         0.008     45631.41    70.00
-    6    HLA-C0702     QPSLNPGG    QPSLNPGG-      0      8      1      0      0     QPSLNPGG              15         0.004     47712.57    95.00
+    0    HLA-C0702     GALSQSQV    GALS-QSQV      0      4      1      0      0     GALSQSQV              15         0.007     46303.32    80.00
+    1    HLA-C0702     ALSQSQVW    ALSQSQ-VW      0      6      1      0      0     ALSQSQVW              15         0.012     43782.87    55.00
+    2    HLA-C0702     LSQSQVWH    -LSQSQVWH      0      0      1      0      0     LSQSQVWH              15         0.014     43038.89    55.00
+    3    HLA-C0702     SQSQVWHS    SQSQVWHS-      0      8      1      0      0     SQSQVWHS              15         0.011     44370.42    60.00
+    4    HLA-C0702     QSQVWHSH    -QSQVWHSH      0      0      1      0      0     QSQVWHSH              15         0.013     43495.78    55.00
+    5    HLA-C0702     SQVWHSHK    SQVWHSHK-      0      8      1      0      0     SQVWHSHK              15         0.009     45218.06    70.00
+    6    HLA-C0702     QVWHSHKG    QVWHSHKG-      0      8      1      0      0     QVWHSHKG              15         0.009     45552.96    70.00
 -----------------------------------------------------------------------------------
 
 Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
@@ -246,13 +246,13 @@ Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     GALSQSQV    GALS-QSQV      0      4      1      0      0     GALSQSQV              16         0.007     46303.32    80.00
-    1    HLA-C0702     ALSQSQVW    ALSQSQ-VW      0      6      1      0      0     ALSQSQVW              16         0.012     43782.87    55.00
-    2    HLA-C0702     LSQSQVWH    -LSQSQVWH      0      0      1      0      0     LSQSQVWH              16         0.014     43038.89    55.00
-    3    HLA-C0702     SQSQVWHS    SQSQVWHS-      0      8      1      0      0     SQSQVWHS              16         0.011     44370.42    60.00
-    4    HLA-C0702     QSQVWHSH    -QSQVWHSH      0      0      1      0      0     QSQVWHSH              16         0.013     43495.78    55.00
-    5    HLA-C0702     SQVWHSHK    SQVWHSHK-      0      8      1      0      0     SQVWHSHK              16         0.009     45218.06    70.00
-    6    HLA-C0702     QVWHSHKG    QVWHSHKG-      0      8      1      0      0     QVWHSHKG              16         0.009     45552.96    70.00
+    0    HLA-C0702     RLCGGKGV    -RLCGGKGV      0      0      1      0      0     RLCGGKGV              16         0.023     39119.45    34.00
+    1    HLA-C0702     LCGGKGVV    -LCGGKGVV      0      0      1      0      0     LCGGKGVV              16         0.007     46207.21    75.00
+    2    HLA-C0702     CGGKGVVF    CG-GKGVVF      0      2      1      0      0     CGGKGVVF              16         0.022     39205.47    34.00
+    3    HLA-C0702     GGKGVVFN    GGKGVVFN-      0      8      1      0      0     GGKGVVFN              16         0.008     45727.77    70.00
+    4    HLA-C0702     GKGVVFNC    -GKGVVFNC      0      0      1      0      0     GKGVVFNC              16         0.011     44507.43    60.00
+    5    HLA-C0702     KGVVFNCQ    KGVVFNCQ-      0      8      1      0      0     KGVVFNCQ              16         0.005     47135.85    90.00
+    6    HLA-C0702     GVVFNCQQ    GVVFNCQQ-      0      8      1      0      0     GVVFNCQQ              16         0.006     46816.14    85.00
 -----------------------------------------------------------------------------------
 
 Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
@@ -263,70 +263,22 @@ Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702     RLCGGKGV    -RLCGGKGV      0      0      1      0      0     RLCGGKGV              17         0.023     39119.45    34.00
-    1    HLA-C0702     LCGGKGVV    -LCGGKGVV      0      0      1      0      0     LCGGKGVV              17         0.007     46207.21    75.00
-    2    HLA-C0702     CGGKGVVF    CG-GKGVVF      0      2      1      0      0     CGGKGVVF              17         0.022     39205.47    34.00
-    3    HLA-C0702     GGKGVVFN    GGKGVVFN-      0      8      1      0      0     GGKGVVFN              17         0.008     45727.77    70.00
-    4    HLA-C0702     GKGVVFNC    -GKGVVFNC      0      0      1      0      0     GKGVVFNC              17         0.011     44507.43    60.00
-    5    HLA-C0702     KGVVFNCQ    KGVVFNCQ-      0      8      1      0      0     KGVVFNCQ              17         0.005     47135.85    90.00
-    6    HLA-C0702     GVVFNCQQ    GVVFNCQQ-      0      8      1      0      0     GVVFNCQQ              17         0.006     46816.14    85.00
+    0    HLA-C0702     HRHCQDQW    HRHCQDQW-      0      8      1      0      0     HRHCQDQW              17         0.085     19883.41     8.00
+    1    HLA-C0702     RHCQDQWF    -RHCQDQWF      0      0      1      0      0     RHCQDQWF              17         0.177      7384.23     2.50
+    2    HLA-C0702     HCQDQWFL    HCQDQWF-L      0      7      1      0      0     HCQDQWFL              17         0.060     26133.42    13.00
+    3    HLA-C0702     CQDQWFLI    CQDQW-FLI      0      5      1      0      0     CQDQWFLI              17         0.019     40554.16    39.00
+    4    HLA-C0702     QDQWFLIA    -QDQWFLIA      0      0      1      0      0     QDQWFLIA              17         0.006     46797.91    85.00
+    5    HLA-C0702     DQWFLIAN    DQW-FLIAN      0      3      1      0      0     DQWFLIAN              17         0.007     46546.43    80.00
+    6    HLA-C0702     QWFLIANR    QWFLIANR-      0      8      1      0      0     QWFLIANR              17         0.009     45535.72    70.00
 -----------------------------------------------------------------------------------
 
 Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
 
 -----------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702     HRHCQDQW    HRHCQDQW-      0      8      1      0      0     HRHCQDQW              18         0.085     19883.41     8.00
-    1    HLA-C0702     RHCQDQWF    -RHCQDQWF      0      0      1      0      0     RHCQDQWF              18         0.177      7384.23     2.50
-    2    HLA-C0702     HCQDQWFL    HCQDQWF-L      0      7      1      0      0     HCQDQWFL              18         0.060     26133.42    13.00
-    3    HLA-C0702     CQDQWFLI    CQDQW-FLI      0      5      1      0      0     CQDQWFLI              18         0.019     40554.16    39.00
-    4    HLA-C0702     QDQWFLIA    -QDQWFLIA      0      0      1      0      0     QDQWFLIA              18         0.006     46797.91    85.00
-    5    HLA-C0702     DQWFLIAN    DQW-FLIAN      0      3      1      0      0     DQWFLIAN              18         0.007     46546.43    80.00
-    6    HLA-C0702     QWFLIANR    QWFLIANR-      0      8      1      0      0     QWFLIANR              18         0.009     45535.72    70.00
------------------------------------------------------------------------------------
-
-Protein 18. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702     VGKAIDKD    VGKAIDKD-      0      8      1      0      0     VGKAIDKD              19         0.005     47573.38    95.00
-    1    HLA-C0702     GKAIDKDS    -GKAIDKDS      0      0      1      0      0     GKAIDKDS              19         0.004     47781.30    99.00
-    2    HLA-C0702     KAIDKDSL    KAIDKD-SL      0      6      1      0      0     KAIDKDSL              19         0.015     42619.97    49.00
-    3    HLA-C0702     AIDKDSLX    -AIDKDSLX      0      0      1      0      0     AIDKDSLX              19         0.005     47166.44    90.00
------------------------------------------------------------------------------------
-
-Protein 19. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 4
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702     FEFDGIEV    FEFDGI-EV      0      6      1      0      0     FEFDGIEV              20         0.035     34210.04    23.00
-    1    HLA-C0702     EFDGIEVF    EF-DGIEVF      0      2      1      0      0     EFDGIEVF              20         0.079     21154.69     9.00
-    2    HLA-C0702     FDGIEVFY    FDGIEVF-Y      0      7      1      0      0     FDGIEVFY              20         0.027     37529.05    30.00
-    3    HLA-C0702     DGIEVFYL    DGIE-VFYL      0      4      1      0      0     DGIEVFYL              20         0.021     39823.68    37.00
-    4    HLA-C0702     GIEVFYLV    GIEVFYLV-      0      8      1      0      0     GIEVFYLV              20         0.008     45876.93    75.00
-    5    HLA-C0702     IEVFYLVP    IEVFYLVP-      0      8      1      0      0     IEVFYLVP              20         0.008     45903.25    75.00
-    6    HLA-C0702     EVFYLVPV    EVF-YLVPV      0      3      1      0      0     EVFYLVPV              20         0.019     40579.20    39.00
------------------------------------------------------------------------------------
-
-Protein 20. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 7
-
------------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 9 /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k9.fasta
-# Tue Oct  4 15:45:59 2016
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 9 /gscuser/jzhang/tests/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k9.fasta
+# Sat Dec 24 00:01:09 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1
+# PWD : /gscuser/jzhang/tests/Examples/example1
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       9                    Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -490,35 +442,17 @@ Protein 9. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    DLSQNHPLG    DLSQNHPLG      0      0      0      0      0    DLSQNHPLG              10         0.022     39329.53    35.00
-    1    HLA-C0702    LSQNHPLGI    LSQNHPLGI      0      0      0      0      0    LSQNHPLGI              10         0.057     26944.55    13.00
-    2    HLA-C0702    SQNHPLGIM    SQNHPLGIM      0      0      0      0      0    SQNHPLGIM              10         0.148     10033.56     3.50
-    3    HLA-C0702    QNHPLGIMA    QNHPLGIMA      0      0      0      0      0    QNHPLGIMA              10         0.028     37075.39    28.00
-    4    HLA-C0702    NHPLGIMAA    NHPLGIMAA      0      0      0      0      0    NHPLGIMAA              10         0.043     31483.59    18.00
-    5    HLA-C0702    HPLGIMAAL    HPLGIMAAL      0      0      0      0      0    HPLGIMAAL              10         0.111     15108.51     5.50
-    6    HLA-C0702    PLGIMAALR    PLGIMAALR      0      0      0      0      0    PLGIMAALR              10         0.011     44585.52    65.00
-    7    HLA-C0702    LGIMAALRP    LGIMAALRP      0      0      0      0      0    LGIMAALRP              10         0.012     43836.92    60.00
+    0    HLA-C0702    PEPLMLRWK    PEPLMLRWK      0      0      0      0      0    PEPLMLRWK              10         0.018     41141.53    42.00
+    1    HLA-C0702    EPLMLRWKP    EPLMLRWKP      0      0      0      0      0    EPLMLRWKP              10         0.013     43579.17    55.00
+    2    HLA-C0702    PLMLRWKPS    PLMLRWKPS      0      0      0      0      0    PLMLRWKPS              10         0.053     28287.99    15.00
+    3    HLA-C0702    LMLRWKPSS    LMLRWKPSS      0      0      0      0      0    LMLRWKPSS              10         0.058     26591.49    13.00
+    4    HLA-C0702    MLRWKPSSQ    MLRWKPSSQ      0      0      0      0      0    MLRWKPSSQ              10         0.043     31533.72    18.00
+    5    HLA-C0702    LRWKPSSQP    LRWKPSSQP      0      0      0      0      0    LRWKPSSQP              10         0.080     20930.21     8.50
+    6    HLA-C0702    RWKPSSQPT    RWKPSSQPT      0      0      0      0      0    RWKPSSQPT              10         0.198      5853.66     1.80 <= WB
+    7    HLA-C0702    WKPSSQPTI    WKPSSQPTI      0      0      0      0      0    WKPSSQPTI              10         0.137     11311.48     4.00
 -----------------------------------------------------------------------------------
 
-Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702    PEPLMLRWK    PEPLMLRWK      0      0      0      0      0    PEPLMLRWK              11         0.018     41141.53    42.00
-    1    HLA-C0702    EPLMLRWKP    EPLMLRWKP      0      0      0      0      0    EPLMLRWKP              11         0.013     43579.17    55.00
-    2    HLA-C0702    PLMLRWKPS    PLMLRWKPS      0      0      0      0      0    PLMLRWKPS              11         0.053     28287.99    15.00
-    3    HLA-C0702    LMLRWKPSS    LMLRWKPSS      0      0      0      0      0    LMLRWKPSS              11         0.058     26591.49    13.00
-    4    HLA-C0702    MLRWKPSSQ    MLRWKPSSQ      0      0      0      0      0    MLRWKPSSQ              11         0.043     31533.72    18.00
-    5    HLA-C0702    LRWKPSSQP    LRWKPSSQP      0      0      0      0      0    LRWKPSSQP              11         0.080     20930.21     8.50
-    6    HLA-C0702    RWKPSSQPT    RWKPSSQPT      0      0      0      0      0    RWKPSSQPT              11         0.198      5853.66     1.80 <= WB
-    7    HLA-C0702    WKPSSQPTI    WKPSSQPTI      0      0      0      0      0    WKPSSQPTI              11         0.137     11311.48     4.00
------------------------------------------------------------------------------------
-
-Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 1. Number of peptides 8
+Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 1. Number of peptides 8
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -526,17 +460,17 @@ Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 1
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    NSKMALNSE    NSKMALNSE      0      0      0      0      0    NSKMALNSE              12         0.017     41703.09    44.00
-    1    HLA-C0702    SKMALNSEA    SKMALNSEA      0      0      0      0      0    SKMALNSEA              12         0.034     34661.61    23.00
-    2    HLA-C0702    KMALNSEAL    KMALNSEAL      0      0      0      0      0    KMALNSEAL              12         0.117     14108.08     5.00
-    3    HLA-C0702    MALNSEALS    MALNSEALS      0      0      0      0      0    MALNSEALS              12         0.022     39518.49    35.00
-    4    HLA-C0702    ALNSEALSV    ALNSEALSV      0      0      0      0      0    ALNSEALSV              12         0.041     32060.41    19.00
-    5    HLA-C0702    LNSEALSVV    LNSEALSVV      0      0      0      0      0    LNSEALSVV              12         0.024     38675.02    33.00
-    6    HLA-C0702    NSEALSVVS    NSEALSVVS      0      0      0      0      0    NSEALSVVS              12         0.017     41471.37    43.00
-    7    HLA-C0702    SEALSVVSE    SEALSVVSE      0      0      0      0      0    SEALSVVSE              12         0.027     37468.59    29.00
+    0    HLA-C0702    NSKMALNSE    NSKMALNSE      0      0      0      0      0    NSKMALNSE              11         0.017     41703.09    44.00
+    1    HLA-C0702    SKMALNSEA    SKMALNSEA      0      0      0      0      0    SKMALNSEA              11         0.034     34661.61    23.00
+    2    HLA-C0702    KMALNSEAL    KMALNSEAL      0      0      0      0      0    KMALNSEAL              11         0.117     14108.08     5.00
+    3    HLA-C0702    MALNSEALS    MALNSEALS      0      0      0      0      0    MALNSEALS              11         0.022     39518.49    35.00
+    4    HLA-C0702    ALNSEALSV    ALNSEALSV      0      0      0      0      0    ALNSEALSV              11         0.041     32060.41    19.00
+    5    HLA-C0702    LNSEALSVV    LNSEALSVV      0      0      0      0      0    LNSEALSVV              11         0.024     38675.02    33.00
+    6    HLA-C0702    NSEALSVVS    NSEALSVVS      0      0      0      0      0    NSEALSVVS              11         0.017     41471.37    43.00
+    7    HLA-C0702    SEALSVVSE    SEALSVVSE      0      0      0      0      0    SEALSVVSE              11         0.027     37468.59    29.00
 -----------------------------------------------------------------------------------
 
-Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -544,14 +478,32 @@ Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    GCEERGAAG    GCEERGAAG      0      0      0      0      0    GCEERGAAG              14         0.031     35574.64    25.00
-    1    HLA-C0702    CEERGAAGS    CEERGAAGS      0      0      0      0      0    CEERGAAGS              14         0.020     40129.03    38.00
-    2    HLA-C0702    EERGAAGSL    EERGAAGSL      0      0      0      0      0    EERGAAGSL              14         0.076     22034.97     9.50
-    3    HLA-C0702    ERGAAGSLI    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              14         0.049     29444.70    16.00
-    4    HLA-C0702    RGAAGSLIS    RGAAGSLIS      0      0      0      0      0    RGAAGSLIS              14         0.027     37488.46    29.00
-    5    HLA-C0702    GAAGSLISC    GAAGSLISC      0      0      0      0      0    GAAGSLISC              14         0.016     42248.55    47.00
-    6    HLA-C0702    AAGSLISCE    AAGSLISCE      0      0      0      0      0    AAGSLISCE              14         0.018     41297.62    42.00
-    7    HLA-C0702    AGSLISCEX    AGSLISCEX      0      0      0      0      0    AGSLISCEX              14         0.024     38695.12    33.00
+    0    HLA-C0702    GCEERGAAG    GCEERGAAG      0      0      0      0      0    GCEERGAAG              13         0.031     35574.64    25.00
+    1    HLA-C0702    CEERGAAGS    CEERGAAGS      0      0      0      0      0    CEERGAAGS              13         0.020     40129.03    38.00
+    2    HLA-C0702    EERGAAGSL    EERGAAGSL      0      0      0      0      0    EERGAAGSL              13         0.076     22034.97     9.50
+    3    HLA-C0702    ERGAAGSLI    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              13         0.049     29444.70    16.00
+    4    HLA-C0702    RGAAGSLIS    RGAAGSLIS      0      0      0      0      0    RGAAGSLIS              13         0.027     37488.46    29.00
+    5    HLA-C0702    GAAGSLISC    GAAGSLISC      0      0      0      0      0    GAAGSLISC              13         0.016     42248.55    47.00
+    6    HLA-C0702    AAGSLISCE    AAGSLISCE      0      0      0      0      0    AAGSLISCE              13         0.018     41297.62    42.00
+    7    HLA-C0702    AGSLISCEX    AGSLISCEX      0      0      0      0      0    AGSLISCEX              13         0.024     38695.12    33.00
+-----------------------------------------------------------------------------------
+
+Protein 13. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702    SGALSQSQP    SGALSQSQP      0      0      0      0      0    SGALSQSQP              14         0.026     37856.11    30.00
+    1    HLA-C0702    GALSQSQPS    GALSQSQPS      0      0      0      0      0    GALSQSQPS              14         0.030     35959.68    26.00
+    2    HLA-C0702    ALSQSQPSL    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              14         0.120     13636.96     5.00
+    3    HLA-C0702    LSQSQPSLN    LSQSQPSLN      0      0      0      0      0    LSQSQPSLN              14         0.017     41487.52    43.00
+    4    HLA-C0702    SQSQPSLNP    SQSQPSLNP      0      0      0      0      0    SQSQPSLNP              14         0.031     35802.08    26.00
+    5    HLA-C0702    QSQPSLNPG    QSQPSLNPG      0      0      0      0      0    QSQPSLNPG              14         0.027     37219.28    29.00
+    6    HLA-C0702    SQPSLNPGG    SQPSLNPGG      0      0      0      0      0    SQPSLNPGG              14         0.016     41858.59    45.00
+    7    HLA-C0702    QPSLNPGGS    QPSLNPGGS      0      0      0      0      0    QPSLNPGGS              14         0.018     41320.88    42.00
 -----------------------------------------------------------------------------------
 
 Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
@@ -562,14 +514,14 @@ Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    SGALSQSQP    SGALSQSQP      0      0      0      0      0    SGALSQSQP              15         0.026     37856.11    30.00
-    1    HLA-C0702    GALSQSQPS    GALSQSQPS      0      0      0      0      0    GALSQSQPS              15         0.030     35959.68    26.00
-    2    HLA-C0702    ALSQSQPSL    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              15         0.120     13636.96     5.00
-    3    HLA-C0702    LSQSQPSLN    LSQSQPSLN      0      0      0      0      0    LSQSQPSLN              15         0.017     41487.52    43.00
-    4    HLA-C0702    SQSQPSLNP    SQSQPSLNP      0      0      0      0      0    SQSQPSLNP              15         0.031     35802.08    26.00
-    5    HLA-C0702    QSQPSLNPG    QSQPSLNPG      0      0      0      0      0    QSQPSLNPG              15         0.027     37219.28    29.00
-    6    HLA-C0702    SQPSLNPGG    SQPSLNPGG      0      0      0      0      0    SQPSLNPGG              15         0.016     41858.59    45.00
-    7    HLA-C0702    QPSLNPGGS    QPSLNPGGS      0      0      0      0      0    QPSLNPGGS              15         0.018     41320.88    42.00
+    0    HLA-C0702    SGALSQSQV    SGALSQSQV      0      0      0      0      0    SGALSQSQV              15         0.031     35664.04    25.00
+    1    HLA-C0702    GALSQSQVW    GALSQSQVW      0      0      0      0      0    GALSQSQVW              15         0.038     33186.31    21.00
+    2    HLA-C0702    ALSQSQVWH    ALSQSQVWH      0      0      0      0      0    ALSQSQVWH              15         0.061     25846.04    12.00
+    3    HLA-C0702    LSQSQVWHS    LSQSQVWHS      0      0      0      0      0    LSQSQVWHS              15         0.030     35991.61    26.00
+    4    HLA-C0702    SQSQVWHSH    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              15         0.076     22077.91     9.50
+    5    HLA-C0702    QSQVWHSHK    QSQVWHSHK      0      0      0      0      0    QSQVWHSHK              15         0.032     35281.00    24.00
+    6    HLA-C0702    SQVWHSHKG    SQVWHSHKG      0      0      0      0      0    SQVWHSHKG              15         0.015     42583.10    48.00
+    7    HLA-C0702    QVWHSHKGG    QVWHSHKGG      0      0      0      0      0    QVWHSHKGG              15         0.024     38742.87    33.00
 -----------------------------------------------------------------------------------
 
 Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
@@ -580,14 +532,14 @@ Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    SGALSQSQV    SGALSQSQV      0      0      0      0      0    SGALSQSQV              16         0.031     35664.04    25.00
-    1    HLA-C0702    GALSQSQVW    GALSQSQVW      0      0      0      0      0    GALSQSQVW              16         0.038     33186.31    21.00
-    2    HLA-C0702    ALSQSQVWH    ALSQSQVWH      0      0      0      0      0    ALSQSQVWH              16         0.061     25846.04    12.00
-    3    HLA-C0702    LSQSQVWHS    LSQSQVWHS      0      0      0      0      0    LSQSQVWHS              16         0.030     35991.61    26.00
-    4    HLA-C0702    SQSQVWHSH    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              16         0.076     22077.91     9.50
-    5    HLA-C0702    QSQVWHSHK    QSQVWHSHK      0      0      0      0      0    QSQVWHSHK              16         0.032     35281.00    24.00
-    6    HLA-C0702    SQVWHSHKG    SQVWHSHKG      0      0      0      0      0    SQVWHSHKG              16         0.015     42583.10    48.00
-    7    HLA-C0702    QVWHSHKGG    QVWHSHKGG      0      0      0      0      0    QVWHSHKGG              16         0.024     38742.87    33.00
+    0    HLA-C0702    PRLCGGKGV    PRLCGGKGV      0      0      0      0      0    PRLCGGKGV              16         0.085     19887.28     8.00
+    1    HLA-C0702    RLCGGKGVV    RLCGGKGVV      0      0      0      0      0    RLCGGKGVV              16         0.052     28486.09    15.00
+    2    HLA-C0702    LCGGKGVVF    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              16         0.067     24300.72    11.00
+    3    HLA-C0702    CGGKGVVFN    CGGKGVVFN      0      0      0      0      0    CGGKGVVFN              16         0.020     40274.32    38.00
+    4    HLA-C0702    GGKGVVFNC    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              16         0.058     26654.59    13.00
+    5    HLA-C0702    GKGVVFNCQ    GKGVVFNCQ      0      0      0      0      0    GKGVVFNCQ              16         0.015     42508.99    48.00
+    6    HLA-C0702    KGVVFNCQQ    KGVVFNCQQ      0      0      0      0      0    KGVVFNCQQ              16         0.024     38711.87    33.00
+    7    HLA-C0702    GVVFNCQQI    GVVFNCQQI      0      0      0      0      0    GVVFNCQQI              16         0.037     33530.26    21.00
 -----------------------------------------------------------------------------------
 
 Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
@@ -598,73 +550,23 @@ Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702    PRLCGGKGV    PRLCGGKGV      0      0      0      0      0    PRLCGGKGV              17         0.085     19887.28     8.00
-    1    HLA-C0702    RLCGGKGVV    RLCGGKGVV      0      0      0      0      0    RLCGGKGVV              17         0.052     28486.09    15.00
-    2    HLA-C0702    LCGGKGVVF    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              17         0.067     24300.72    11.00
-    3    HLA-C0702    CGGKGVVFN    CGGKGVVFN      0      0      0      0      0    CGGKGVVFN              17         0.020     40274.32    38.00
-    4    HLA-C0702    GGKGVVFNC    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              17         0.058     26654.59    13.00
-    5    HLA-C0702    GKGVVFNCQ    GKGVVFNCQ      0      0      0      0      0    GKGVVFNCQ              17         0.015     42508.99    48.00
-    6    HLA-C0702    KGVVFNCQQ    KGVVFNCQQ      0      0      0      0      0    KGVVFNCQQ              17         0.024     38711.87    33.00
-    7    HLA-C0702    GVVFNCQQI    GVVFNCQQI      0      0      0      0      0    GVVFNCQQI              17         0.037     33530.26    21.00
+    0    HLA-C0702    IHRHCQDQW    IHRHCQDQW      0      0      0      0      0    IHRHCQDQW              17         0.050     29191.87    16.00
+    1    HLA-C0702    HRHCQDQWF    HRHCQDQWF      0      0      0      0      0    HRHCQDQWF              17         0.542       141.96     0.05 <= SB
+    2    HLA-C0702    RHCQDQWFL    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              17         0.254      3185.56     1.00 <= WB
+    3    HLA-C0702    HCQDQWFLI    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              17         0.090     18861.41     7.50
+    4    HLA-C0702    CQDQWFLIA    CQDQWFLIA      0      0      0      0      0    CQDQWFLIA              17         0.028     36799.64    28.00
+    5    HLA-C0702    QDQWFLIAN    QDQWFLIAN      0      0      0      0      0    QDQWFLIAN              17         0.018     41171.81    42.00
+    6    HLA-C0702    DQWFLIANR    DQWFLIANR      0      0      0      0      0    DQWFLIANR              17         0.020     40181.18    38.00
+    7    HLA-C0702    QWFLIANRS    QWFLIANRS      0      0      0      0      0    QWFLIANRS              17         0.024     38477.61    32.00
 -----------------------------------------------------------------------------------
 
-Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+Protein 17. Allele HLA-C0702. Number of high binders 1. Number of weak binders 1. Number of peptides 8
 
 -----------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702    IHRHCQDQW    IHRHCQDQW      0      0      0      0      0    IHRHCQDQW              18         0.050     29191.87    16.00
-    1    HLA-C0702    HRHCQDQWF    HRHCQDQWF      0      0      0      0      0    HRHCQDQWF              18         0.542       141.96     0.05 <= SB
-    2    HLA-C0702    RHCQDQWFL    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              18         0.254      3185.56     1.00 <= WB
-    3    HLA-C0702    HCQDQWFLI    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              18         0.090     18861.41     7.50
-    4    HLA-C0702    CQDQWFLIA    CQDQWFLIA      0      0      0      0      0    CQDQWFLIA              18         0.028     36799.64    28.00
-    5    HLA-C0702    QDQWFLIAN    QDQWFLIAN      0      0      0      0      0    QDQWFLIAN              18         0.018     41171.81    42.00
-    6    HLA-C0702    DQWFLIANR    DQWFLIANR      0      0      0      0      0    DQWFLIANR              18         0.020     40181.18    38.00
-    7    HLA-C0702    QWFLIANRS    QWFLIANRS      0      0      0      0      0    QWFLIANRS              18         0.024     38477.61    32.00
------------------------------------------------------------------------------------
-
-Protein 18. Allele HLA-C0702. Number of high binders 1. Number of weak binders 1. Number of peptides 8
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702    RVGKAIDKD    RVGKAIDKD      0      0      0      0      0    RVGKAIDKD              19         0.015     42649.96    49.00
-    1    HLA-C0702    VGKAIDKDS    VGKAIDKDS      0      0      0      0      0    VGKAIDKDS              19         0.019     40849.68    40.00
-    2    HLA-C0702    GKAIDKDSL    GKAIDKDSL      0      0      0      0      0    GKAIDKDSL              19         0.035     34147.55    22.00
-    3    HLA-C0702    KAIDKDSLX    KAIDKDSLX      0      0      0      0      0    KAIDKDSLX              19         0.021     39782.32    36.00
------------------------------------------------------------------------------------
-
-Protein 19. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 4
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702    KFEFDGIEV    KFEFDGIEV      0      0      0      0      0    KFEFDGIEV              20         0.032     35287.51    25.00
-    1    HLA-C0702    FEFDGIEVF    FEFDGIEVF      0      0      0      0      0    FEFDGIEVF              20         0.442       417.49     0.15 <= SB
-    2    HLA-C0702    EFDGIEVFY    EFDGIEVFY      0      0      0      0      0    EFDGIEVFY              20         0.060     26143.31    13.00
-    3    HLA-C0702    FDGIEVFYL    FDGIEVFYL      0      0      0      0      0    FDGIEVFYL              20         0.142     10727.98     3.50
-    4    HLA-C0702    DGIEVFYLV    DGIEVFYLV      0      0      0      0      0    DGIEVFYLV              20         0.021     39890.07    37.00
-    5    HLA-C0702    GIEVFYLVP    GIEVFYLVP      0      0      0      0      0    GIEVFYLVP              20         0.022     39502.23    35.00
-    6    HLA-C0702    IEVFYLVPV    IEVFYLVPV      0      0      0      0      0    IEVFYLVPV              20         0.045     30750.34    18.00
-    7    HLA-C0702    EVFYLVPVA    EVFYLVPVA      0      0      0      0      0    EVFYLVPVA              20         0.031     35701.11    25.00
------------------------------------------------------------------------------------
-
-Protein 20. Allele HLA-C0702. Number of high binders 1. Number of weak binders 0. Number of peptides 8
-
------------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 10 /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k10.fasta
-# Tue Oct  4 15:46:00 2016
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 10 /gscuser/jzhang/tests/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k10.fasta
+# Sat Dec 24 00:01:12 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1
+# PWD : /gscuser/jzhang/tests/Examples/example1
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       10                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -832,15 +734,15 @@ Protein 9. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   FDLSQNHPLG    FDLSQNHPL      0      0      0      0      0    FDLSQNHPL              10         0.047     29922.58    17.00
-    1    HLA-C0702   DLSQNHPLGI    DLQNHPLGI      0      0      0      2      1   DLSQNHPLGI              10         0.013     43485.91    55.00
-    2    HLA-C0702   LSQNHPLGIM    SQNHPLGIM      1      0      0      0      0    SQNHPLGIM              10         0.031     35594.65    25.00
-    3    HLA-C0702   SQNHPLGIMA    SQNHPLGIM      0      0      0      0      0    SQNHPLGIM              10         0.021     39827.97    37.00
-    4    HLA-C0702   QNHPLGIMAA    QNHPGIMAA      0      0      0      4      1   QNHPLGIMAA              10         0.010     44849.68    65.00
-    5    HLA-C0702   NHPLGIMAAL    NHPLGIMAL      0      0      0      7      1   NHPLGIMAAL              10         0.030     36172.74    26.00
-    6    HLA-C0702   HPLGIMAALR    HPLGIMAAL      0      0      0      0      0    HPLGIMAAL              10         0.015     42599.69    49.00
-    7    HLA-C0702   PLGIMAALRP    PLGIMAALR      0      0      0      0      0    PLGIMAALR              10         0.003     48310.49    99.00
-    8    HLA-C0702   LGIMAALRPL    GIMAALRPL      1      0      0      0      0    GIMAALRPL              10         0.023     38989.30    34.00
+    0    HLA-C0702   LPEPLMLRWK    LPEPLMLRW      0      0      0      0      0    LPEPLMLRW              10         0.005     47217.51    90.00
+    1    HLA-C0702   PEPLMLRWKP    PEPLMLRWK      0      0      0      0      0    PEPLMLRWK              10         0.004     48091.96    99.00
+    2    HLA-C0702   EPLMLRWKPS    ELMLRWKPS      0      0      0      1      1   EPLMLRWKPS              10         0.007     46335.88    80.00
+    3    HLA-C0702   PLMLRWKPSS    LMLRWKPSS      1      0      0      0      0    LMLRWKPSS              10         0.009     45402.88    70.00
+    4    HLA-C0702   LMLRWKPSSQ    LMLRWPSSQ      0      0      0      5      1   LMLRWKPSSQ              10         0.016     42065.18    46.00
+    5    HLA-C0702   MLRWKPSSQP    MRWKPSSQP      0      0      0      1      1   MLRWKPSSQP              10         0.012     43851.14    60.00
+    6    HLA-C0702   LRWKPSSQPT    LRWPSSQPT      0      0      0      3      1   LRWKPSSQPT              10         0.052     28375.35    15.00
+    7    HLA-C0702   RWKPSSQPTI    RWKPSQPTI      0      0      0      4      1   RWKPSSQPTI              10         0.090     18794.79     7.50
+    8    HLA-C0702   WKPSSQPTIP    WKPSSQPTI      0      0      0      0      0    WKPSSQPTI              10         0.021     39809.89    36.00
 -----------------------------------------------------------------------------------
 
 Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
@@ -851,15 +753,15 @@ Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   LPEPLMLRWK    LPEPLMLRW      0      0      0      0      0    LPEPLMLRW              11         0.005     47217.51    90.00
-    1    HLA-C0702   PEPLMLRWKP    PEPLMLRWK      0      0      0      0      0    PEPLMLRWK              11         0.004     48091.96    99.00
-    2    HLA-C0702   EPLMLRWKPS    ELMLRWKPS      0      0      0      1      1   EPLMLRWKPS              11         0.007     46335.88    80.00
-    3    HLA-C0702   PLMLRWKPSS    LMLRWKPSS      1      0      0      0      0    LMLRWKPSS              11         0.009     45402.88    70.00
-    4    HLA-C0702   LMLRWKPSSQ    LMLRWPSSQ      0      0      0      5      1   LMLRWKPSSQ              11         0.016     42065.18    46.00
-    5    HLA-C0702   MLRWKPSSQP    MRWKPSSQP      0      0      0      1      1   MLRWKPSSQP              11         0.012     43851.14    60.00
-    6    HLA-C0702   LRWKPSSQPT    LRWPSSQPT      0      0      0      3      1   LRWKPSSQPT              11         0.052     28375.35    15.00
-    7    HLA-C0702   RWKPSSQPTI    RWKPSQPTI      0      0      0      4      1   RWKPSSQPTI              11         0.090     18794.79     7.50
-    8    HLA-C0702   WKPSSQPTIP    WKPSSQPTI      0      0      0      0      0    WKPSSQPTI              11         0.021     39809.89    36.00
+    0    HLA-C0702   DNSKMALNSE    DNSKMALSE      0      0      0      7      1   DNSKMALNSE              11         0.004     48086.25    99.00
+    1    HLA-C0702   NSKMALNSEA    SKMALNSEA      1      0      0      0      0    SKMALNSEA              11         0.005     47219.55    90.00
+    2    HLA-C0702   SKMALNSEAL    SKMANSEAL      0      0      0      4      1   SKMALNSEAL              11         0.031     35842.37    26.00
+    3    HLA-C0702   KMALNSEALS    KMALNSEAL      0      0      0      0      0    KMALNSEAL              11         0.016     42277.34    47.00
+    4    HLA-C0702   MALNSEALSV    MLNSEALSV      0      0      0      1      1   MALNSEALSV              11         0.009     45285.62    70.00
+    5    HLA-C0702   ALNSEALSVV    ALNSEALSV      0      0      0      0      0    ALNSEALSV              11         0.008     46077.41    75.00
+    6    HLA-C0702   LNSEALSVVS    LNSEALSVV      0      0      0      0      0    LNSEALSVV              11         0.005     47501.89    95.00
+    7    HLA-C0702   NSEALSVVSE    SEALSVVSE      1      0      0      0      0    SEALSVVSE              11         0.004     47625.94    95.00
+    8    HLA-C0702   SEALSVVSED    SEALSVVSE      0      0      0      0      0    SEALSVVSE              11         0.006     46904.36    85.00
 -----------------------------------------------------------------------------------
 
 Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
@@ -870,36 +772,17 @@ Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   DNSKMALNSE    DNSKMALSE      0      0      0      7      1   DNSKMALNSE              12         0.004     48086.25    99.00
-    1    HLA-C0702   NSKMALNSEA    SKMALNSEA      1      0      0      0      0    SKMALNSEA              12         0.005     47219.55    90.00
-    2    HLA-C0702   SKMALNSEAL    SKMANSEAL      0      0      0      4      1   SKMALNSEAL              12         0.031     35842.37    26.00
-    3    HLA-C0702   KMALNSEALS    KMALNSEAL      0      0      0      0      0    KMALNSEAL              12         0.016     42277.34    47.00
-    4    HLA-C0702   MALNSEALSV    MLNSEALSV      0      0      0      1      1   MALNSEALSV              12         0.009     45285.62    70.00
-    5    HLA-C0702   ALNSEALSVV    ALNSEALSV      0      0      0      0      0    ALNSEALSV              12         0.008     46077.41    75.00
-    6    HLA-C0702   LNSEALSVVS    LNSEALSVV      0      0      0      0      0    LNSEALSVV              12         0.005     47501.89    95.00
-    7    HLA-C0702   NSEALSVVSE    SEALSVVSE      1      0      0      0      0    SEALSVVSE              12         0.004     47625.94    95.00
-    8    HLA-C0702   SEALSVVSED    SEALSVVSE      0      0      0      0      0    SEALSVVSE              12         0.006     46904.36    85.00
+    0    HLA-C0702   SGCEERGAAG    SGCERGAAG      0      0      0      3      1   SGCEERGAAG              13         0.006     46838.43    85.00
+    1    HLA-C0702   GCEERGAAGS    GCEERGAAS      0      0      0      8      1   GCEERGAAGS              13         0.005     47310.57    90.00
+    2    HLA-C0702   CEERGAAGSL    CEERGAASL      0      0      0      7      1   CEERGAAGSL              13         0.014     43190.04    55.00
+    3    HLA-C0702   EERGAAGSLI    EERGAAGSL      0      0      0      0      0    EERGAAGSL              13         0.011     44229.00    60.00
+    4    HLA-C0702   ERGAAGSLIS    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              13         0.009     45538.18    70.00
+    5    HLA-C0702   RGAAGSLISC    RGAAGSLSC      0      0      0      7      1   RGAAGSLISC              13         0.006     46977.50    85.00
+    6    HLA-C0702   GAAGSLISCE    GAAGSLISC      0      0      0      0      0    GAAGSLISC              13         0.004     47968.80    99.00
+    7    HLA-C0702   AAGSLISCEX    AAGSLISEX      0      0      0      7      1   AAGSLISCEX              13         0.004     47626.43    95.00
 -----------------------------------------------------------------------------------
 
-Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702   SGCEERGAAG    SGCERGAAG      0      0      0      3      1   SGCEERGAAG              14         0.006     46838.43    85.00
-    1    HLA-C0702   GCEERGAAGS    GCEERGAAS      0      0      0      8      1   GCEERGAAGS              14         0.005     47310.57    90.00
-    2    HLA-C0702   CEERGAAGSL    CEERGAASL      0      0      0      7      1   CEERGAAGSL              14         0.014     43190.04    55.00
-    3    HLA-C0702   EERGAAGSLI    EERGAAGSL      0      0      0      0      0    EERGAAGSL              14         0.011     44229.00    60.00
-    4    HLA-C0702   ERGAAGSLIS    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              14         0.009     45538.18    70.00
-    5    HLA-C0702   RGAAGSLISC    RGAAGSLSC      0      0      0      7      1   RGAAGSLISC              14         0.006     46977.50    85.00
-    6    HLA-C0702   GAAGSLISCE    GAAGSLISC      0      0      0      0      0    GAAGSLISC              14         0.004     47968.80    99.00
-    7    HLA-C0702   AAGSLISCEX    AAGSLISEX      0      0      0      7      1   AAGSLISCEX              14         0.004     47626.43    95.00
------------------------------------------------------------------------------------
-
-Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
+Protein 13. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -907,15 +790,34 @@ Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   GSGALSQSQP    GSGALSQSQ      0      0      0      0      0    GSGALSQSQ              15         0.004     47773.01    99.00
-    1    HLA-C0702   SGALSQSQPS    SGLSQSQPS      0      0      0      2      1   SGALSQSQPS              15         0.006     46889.14    85.00
-    2    HLA-C0702   GALSQSQPSL    GALSQSQPL      0      0      0      8      1   GALSQSQPSL              15         0.018     41045.48    41.00
-    3    HLA-C0702   ALSQSQPSLN    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              15         0.015     42607.08    49.00
-    4    HLA-C0702   LSQSQPSLNP    SQSQPSLNP      1      0      0      0      0    SQSQPSLNP              15         0.005     47480.82    95.00
-    5    HLA-C0702   SQSQPSLNPG    SQSPSLNPG      0      0      0      3      1   SQSQPSLNPG              15         0.007     46134.79    75.00
-    6    HLA-C0702   QSQPSLNPGG    QSQPSLNPG      0      0      0      0      0    QSQPSLNPG              15         0.005     47565.68    95.00
-    7    HLA-C0702   SQPSLNPGGS    SQPSNPGGS      0      0      0      4      1   SQPSLNPGGS              15         0.006     46954.11    85.00
-    8    HLA-C0702   QPSLNPGGSQ    QSLNPGGSQ      0      0      0      1      1   QPSLNPGGSQ              15         0.005     47453.09    95.00
+    0    HLA-C0702   GSGALSQSQP    GSGALSQSQ      0      0      0      0      0    GSGALSQSQ              14         0.004     47773.01    99.00
+    1    HLA-C0702   SGALSQSQPS    SGLSQSQPS      0      0      0      2      1   SGALSQSQPS              14         0.006     46889.14    85.00
+    2    HLA-C0702   GALSQSQPSL    GALSQSQPL      0      0      0      8      1   GALSQSQPSL              14         0.018     41045.48    41.00
+    3    HLA-C0702   ALSQSQPSLN    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              14         0.015     42607.08    49.00
+    4    HLA-C0702   LSQSQPSLNP    SQSQPSLNP      1      0      0      0      0    SQSQPSLNP              14         0.005     47480.82    95.00
+    5    HLA-C0702   SQSQPSLNPG    SQSPSLNPG      0      0      0      3      1   SQSQPSLNPG              14         0.007     46134.79    75.00
+    6    HLA-C0702   QSQPSLNPGG    QSQPSLNPG      0      0      0      0      0    QSQPSLNPG              14         0.005     47565.68    95.00
+    7    HLA-C0702   SQPSLNPGGS    SQPSNPGGS      0      0      0      4      1   SQPSLNPGGS              14         0.006     46954.11    85.00
+    8    HLA-C0702   QPSLNPGGSQ    QSLNPGGSQ      0      0      0      1      1   QPSLNPGGSQ              14         0.005     47453.09    95.00
+-----------------------------------------------------------------------------------
+
+Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
+
+-----------------------------------------------------------------------------------
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------
+  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
+-----------------------------------------------------------------------------------
+    0    HLA-C0702   GSGALSQSQV    SGALSQSQV      1      0      0      0      0    SGALSQSQV              15         0.005     47388.46    95.00
+    1    HLA-C0702   SGALSQSQVW    SGLSQSQVW      0      0      0      2      1   SGALSQSQVW              15         0.008     45842.21    75.00
+    2    HLA-C0702   GALSQSQVWH    ALSQSQVWH      1      0      0      0      0    ALSQSQVWH              15         0.009     45247.43    70.00
+    3    HLA-C0702   ALSQSQVWHS    ALSQSQVWH      0      0      0      0      0    ALSQSQVWH              15         0.009     45285.62    70.00
+    4    HLA-C0702   LSQSQVWHSH    SQSQVWHSH      1      0      0      0      0    SQSQVWHSH              15         0.011     44304.68    60.00
+    5    HLA-C0702   SQSQVWHSHK    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              15         0.012     44057.05    60.00
+    6    HLA-C0702   QSQVWHSHKG    QSQVWHSHK      0      0      0      0      0    QSQVWHSHK              15         0.005     47436.16    95.00
+    7    HLA-C0702   SQVWHSHKGG    SQWHSHKGG      0      0      0      2      1   SQVWHSHKGG              15         0.005     47353.61    90.00
+    8    HLA-C0702   QVWHSHKGGX    VWHSHKGGX      1      0      0      0      0    VWHSHKGGX              15         0.017     41461.95    43.00
 -----------------------------------------------------------------------------------
 
 Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
@@ -926,15 +828,15 @@ Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   GSGALSQSQV    SGALSQSQV      1      0      0      0      0    SGALSQSQV              16         0.005     47388.46    95.00
-    1    HLA-C0702   SGALSQSQVW    SGLSQSQVW      0      0      0      2      1   SGALSQSQVW              16         0.008     45842.21    75.00
-    2    HLA-C0702   GALSQSQVWH    ALSQSQVWH      1      0      0      0      0    ALSQSQVWH              16         0.009     45247.43    70.00
-    3    HLA-C0702   ALSQSQVWHS    ALSQSQVWH      0      0      0      0      0    ALSQSQVWH              16         0.009     45285.62    70.00
-    4    HLA-C0702   LSQSQVWHSH    SQSQVWHSH      1      0      0      0      0    SQSQVWHSH              16         0.011     44304.68    60.00
-    5    HLA-C0702   SQSQVWHSHK    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              16         0.012     44057.05    60.00
-    6    HLA-C0702   QSQVWHSHKG    QSQVWHSHK      0      0      0      0      0    QSQVWHSHK              16         0.005     47436.16    95.00
-    7    HLA-C0702   SQVWHSHKGG    SQWHSHKGG      0      0      0      2      1   SQVWHSHKGG              16         0.005     47353.61    90.00
-    8    HLA-C0702   QVWHSHKGGX    VWHSHKGGX      1      0      0      0      0    VWHSHKGGX              16         0.017     41461.95    43.00
+    0    HLA-C0702   EPRLCGGKGV    ERLCGGKGV      0      0      0      1      1   EPRLCGGKGV              16         0.013     43269.08    55.00
+    1    HLA-C0702   PRLCGGKGVV    PRLCGGKVV      0      0      0      7      1   PRLCGGKGVV              16         0.016     41859.97    45.00
+    2    HLA-C0702   RLCGGKGVVF    RLCGGKVVF      0      0      0      6      1   RLCGGKGVVF              16         0.037     33501.99    21.00
+    3    HLA-C0702   LCGGKGVVFN    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              16         0.009     45183.34    65.00
+    4    HLA-C0702   CGGKGVVFNC    CGKGVVFNC      0      0      0      1      1   CGGKGVVFNC              16         0.008     45990.24    75.00
+    5    HLA-C0702   GGKGVVFNCQ    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              16         0.007     46150.27    75.00
+    6    HLA-C0702   GKGVVFNCQQ    GKVVFNCQQ      0      0      0      2      1   GKGVVFNCQQ              16         0.005     47550.75    95.00
+    7    HLA-C0702   KGVVFNCQQI    KVVFNCQQI      0      0      0      1      1   KGVVFNCQQI              16         0.007     46577.15    80.00
+    8    HLA-C0702   GVVFNCQQIL    VVFNCQQIL      1      0      0      0      0    VVFNCQQIL              16         0.030     36266.01    27.00
 -----------------------------------------------------------------------------------
 
 Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
@@ -945,76 +847,24 @@ Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702   EPRLCGGKGV    ERLCGGKGV      0      0      0      1      1   EPRLCGGKGV              17         0.013     43269.08    55.00
-    1    HLA-C0702   PRLCGGKGVV    PRLCGGKVV      0      0      0      7      1   PRLCGGKGVV              17         0.016     41859.97    45.00
-    2    HLA-C0702   RLCGGKGVVF    RLCGGKVVF      0      0      0      6      1   RLCGGKGVVF              17         0.037     33501.99    21.00
-    3    HLA-C0702   LCGGKGVVFN    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              17         0.009     45183.34    65.00
-    4    HLA-C0702   CGGKGVVFNC    CGKGVVFNC      0      0      0      1      1   CGGKGVVFNC              17         0.008     45990.24    75.00
-    5    HLA-C0702   GGKGVVFNCQ    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              17         0.007     46150.27    75.00
-    6    HLA-C0702   GKGVVFNCQQ    GKVVFNCQQ      0      0      0      2      1   GKGVVFNCQQ              17         0.005     47550.75    95.00
-    7    HLA-C0702   KGVVFNCQQI    KVVFNCQQI      0      0      0      1      1   KGVVFNCQQI              17         0.007     46577.15    80.00
-    8    HLA-C0702   GVVFNCQQIL    VVFNCQQIL      1      0      0      0      0    VVFNCQQIL              17         0.030     36266.01    27.00
+    0    HLA-C0702   FIHRHCQDQW    FIHRHCQQW      0      0      0      7      1   FIHRHCQDQW              17         0.027     37413.90    29.00
+    1    HLA-C0702   IHRHCQDQWF    HRHCQDQWF      1      0      0      0      0    HRHCQDQWF              17         0.212      5029.66     1.60 <= WB
+    2    HLA-C0702   HRHCQDQWFL    HRHQDQWFL      0      0      0      3      1   HRHCQDQWFL              17         0.238      3821.73     1.20 <= WB
+    3    HLA-C0702   RHCQDQWFLI    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              17         0.046     30491.92    17.00
+    4    HLA-C0702   HCQDQWFLIA    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              17         0.015     42626.89    49.00
+    5    HLA-C0702   CQDQWFLIAN    CQDQWFLAN      0      0      0      7      1   CQDQWFLIAN              17         0.006     46853.63    85.00
+    6    HLA-C0702   QDQWFLIANR    QQWFLIANR      0      0      0      1      1   QDQWFLIANR              17         0.005     47509.61    95.00
+    7    HLA-C0702   DQWFLIANRS    QWFLIANRS      1      0      0      0      0    QWFLIANRS              17         0.005     47396.14    95.00
+    8    HLA-C0702   QWFLIANRSY    WFLIANRSY      1      0      0      0      0    WFLIANRSY              17         0.048     29890.55    16.00
 -----------------------------------------------------------------------------------
 
-Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
+Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 2. Number of peptides 9
 
 -----------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702   FIHRHCQDQW    FIHRHCQQW      0      0      0      7      1   FIHRHCQDQW              18         0.027     37413.90    29.00
-    1    HLA-C0702   IHRHCQDQWF    HRHCQDQWF      1      0      0      0      0    HRHCQDQWF              18         0.212      5029.66     1.60 <= WB
-    2    HLA-C0702   HRHCQDQWFL    HRHQDQWFL      0      0      0      3      1   HRHCQDQWFL              18         0.238      3821.73     1.20 <= WB
-    3    HLA-C0702   RHCQDQWFLI    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              18         0.046     30491.92    17.00
-    4    HLA-C0702   HCQDQWFLIA    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              18         0.015     42626.89    49.00
-    5    HLA-C0702   CQDQWFLIAN    CQDQWFLAN      0      0      0      7      1   CQDQWFLIAN              18         0.006     46853.63    85.00
-    6    HLA-C0702   QDQWFLIANR    QQWFLIANR      0      0      0      1      1   QDQWFLIANR              18         0.005     47509.61    95.00
-    7    HLA-C0702   DQWFLIANRS    QWFLIANRS      1      0      0      0      0    QWFLIANRS              18         0.005     47396.14    95.00
-    8    HLA-C0702   QWFLIANRSY    WFLIANRSY      1      0      0      0      0    WFLIANRSY              18         0.048     29890.55    16.00
------------------------------------------------------------------------------------
-
-Protein 18. Allele HLA-C0702. Number of high binders 0. Number of weak binders 2. Number of peptides 9
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702   SRVGKAIDKD    SRVGKAIDK      0      0      0      0      0    SRVGKAIDK              19         0.007     46176.23    75.00
-    1    HLA-C0702   RVGKAIDKDS    RVKAIDKDS      0      0      0      2      1   RVGKAIDKDS              19         0.004     47731.68    95.00
-    2    HLA-C0702   VGKAIDKDSL    VGKAIDKSL      0      0      0      7      1   VGKAIDKDSL              19         0.010     44902.12    65.00
-    3    HLA-C0702   GKAIDKDSLX    GKAIDKDSL      0      0      0      0      0    GKAIDKDSL              19         0.006     46732.13    85.00
------------------------------------------------------------------------------------
-
-Protein 19. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 4
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702   IKFEFDGIEV    IKFEFGIEV      0      0      0      5      1   IKFEFDGIEV              20         0.012     43914.76    60.00
-    1    HLA-C0702   KFEFDGIEVF    FEFDGIEVF      1      0      0      0      0    FEFDGIEVF              20         0.127     12699.30     4.50
-    2    HLA-C0702   FEFDGIEVFY    FEFDGIEVF      0      0      0      0      0    FEFDGIEVF              20         0.112     14905.71     5.50
-    3    HLA-C0702   EFDGIEVFYL    FDGIEVFYL      1      0      0      0      0    FDGIEVFYL              20         0.031     35581.96    25.00
-    4    HLA-C0702   FDGIEVFYLV    FDGIEVFYL      0      0      0      0      0    FDGIEVFYL              20         0.018     41020.19    41.00
-    5    HLA-C0702   DGIEVFYLVP    DGIEVFYLV      0      0      0      0      0    DGIEVFYLV              20         0.005     47403.84    95.00
-    6    HLA-C0702   GIEVFYLVPV    IEVFYLVPV      1      0      0      0      0    IEVFYLVPV              20         0.008     45694.13    70.00
-    7    HLA-C0702   IEVFYLVPVA    IEVFYLVPV      0      0      0      0      0    IEVFYLVPV              20         0.008     45960.89    75.00
-    8    HLA-C0702   EVFYLVPVAF    VFYLVPVAF      1      0      0      0      0    VFYLVPVAF              20         0.123     13152.24     4.50
------------------------------------------------------------------------------------
-
-Protein 20. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
-
------------------------------------------------------------------------------------
-# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 11 /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k11.fasta
-# Tue Oct  4 15:46:01 2016
+# /gscmnt/gc2501/maherlab/jzhang/netMHC4/netMHC-4.0/Linux_x86_64/bin/netMHC -a HLA-C0702 -l 11 /gscuser/jzhang/tests/Examples/example1/fusion_antigen_out/tmp/netMHC4.0.k11.fasta
+# Sat Dec 24 00:01:18 2016
 # User: jzhang
-# PWD : /gscmnt/gc2601/maherlab/jzhang/INTEGRATE-Neo-version-updates/INTEGRATE-Neo-V-1.1.0/Examples/example1
+# PWD : /gscuser/jzhang/tests/Examples/example1
 # Host: Linux linuscs127.gsc.wustl.edu 3.0.0-16-server x86_64
 # -a       HLA-C0702            HLA allele name
 # -l       11                   Peptide length (multiple lengths separated by comma e.g. 8,9,10)
@@ -1186,16 +1036,16 @@ Protein 9. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0.
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  KFDLSQNHPLG    KFLSQNHPL      0      0      0      2      1   KFDLSQNHPL              10         0.062     25624.39    12.00
-    1    HLA-C0702  FDLSQNHPLGI    FDLSQNHPL      0      0      0      0      0    FDLSQNHPL              10         0.036     33804.20    22.00
-    2    HLA-C0702  DLSQNHPLGIM    LSQNHPLIM      1      0      0      7      1   LSQNHPLGIM              10         0.024     38385.29    32.00
-    3    HLA-C0702  LSQNHPLGIMA    SQNHPLGIM      1      0      0      0      0    SQNHPLGIM              10         0.022     39438.62    35.00
-    4    HLA-C0702  SQNHPLGIMAA    SQNHPLGIM      0      0      0      0      0    SQNHPLGIM              10         0.017     41748.25    44.00
-    5    HLA-C0702  QNHPLGIMAAL    NHPLGIMAL      1      0      0      7      1   NHPLGIMAAL              10         0.026     37588.78    30.00
-    6    HLA-C0702  NHPLGIMAALR    NHPLGIMAL      0      0      0      7      1   NHPLGIMAAL              10         0.021     39819.36    37.00
-    7    HLA-C0702  HPLGIMAALRP    HPLGIMAAL      0      0      0      0      0    HPLGIMAAL              10         0.012     44072.31    60.00
-    8    HLA-C0702  PLGIMAALRPL    PLMAALRPL      0      0      0      2      2  PLGIMAALRPL              10         0.018     41223.96    42.00
-    9    HLA-C0702  LGIMAALRPLV    GIMAALRPL      1      0      0      0      0    GIMAALRPL              10         0.016     41881.70    45.00
+    0    HLA-C0702  GLPEPLMLRWK    GLPPLMLRW      0      0      0      3      1   GLPEPLMLRW              10         0.007     46479.00    80.00
+    1    HLA-C0702  LPEPLMLRWKP    LPEPLMLRW      0      0      0      0      0    LPEPLMLRW              10         0.005     47621.30    95.00
+    2    HLA-C0702  PEPLMLRWKPS    ELMLRWKPS      1      0      0      1      1   EPLMLRWKPS              10         0.006     46997.31    85.00
+    3    HLA-C0702  EPLMLRWKPSS    LMLRWKPSS      2      0      0      0      0    LMLRWKPSS              10         0.007     46307.83    80.00
+    4    HLA-C0702  PLMLRWKPSSQ    LMLRWPSSQ      1      0      0      5      1   LMLRWKPSSQ              10         0.012     43871.54    60.00
+    5    HLA-C0702  LMLRWKPSSQP    LMLRWPSSQ      0      0      0      5      1   LMLRWKPSSQ              10         0.012     43728.89    55.00
+    6    HLA-C0702  MLRWKPSSQPT    LRWPSSQPT      1      0      0      3      1   LRWKPSSQPT              10         0.037     33419.79    21.00
+    7    HLA-C0702  LRWKPSSQPTI    RWKPSSQPI      1      0      0      8      1   RWKPSSQPTI              10         0.082     20644.57     8.50
+    8    HLA-C0702  RWKPSSQPTIP    RWKPSQPTI      0      0      0      4      1   RWKPSSQPTI              10         0.067     24348.09    11.00
+    9    HLA-C0702  WKPSSQPTIPI    WKPSPTIPI      0      0      0      4      2  WKPSSQPTIPI              10         0.030     36010.69    26.00
 -----------------------------------------------------------------------------------
 
 Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
@@ -1206,16 +1056,16 @@ Protein 10. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  GLPEPLMLRWK    GLPPLMLRW      0      0      0      3      1   GLPEPLMLRW              11         0.007     46479.00    80.00
-    1    HLA-C0702  LPEPLMLRWKP    LPEPLMLRW      0      0      0      0      0    LPEPLMLRW              11         0.005     47621.30    95.00
-    2    HLA-C0702  PEPLMLRWKPS    ELMLRWKPS      1      0      0      1      1   EPLMLRWKPS              11         0.006     46997.31    85.00
-    3    HLA-C0702  EPLMLRWKPSS    LMLRWKPSS      2      0      0      0      0    LMLRWKPSS              11         0.007     46307.83    80.00
-    4    HLA-C0702  PLMLRWKPSSQ    LMLRWPSSQ      1      0      0      5      1   LMLRWKPSSQ              11         0.012     43871.54    60.00
-    5    HLA-C0702  LMLRWKPSSQP    LMLRWPSSQ      0      0      0      5      1   LMLRWKPSSQ              11         0.012     43728.89    55.00
-    6    HLA-C0702  MLRWKPSSQPT    LRWPSSQPT      1      0      0      3      1   LRWKPSSQPT              11         0.037     33419.79    21.00
-    7    HLA-C0702  LRWKPSSQPTI    RWKPSSQPI      1      0      0      8      1   RWKPSSQPTI              11         0.082     20644.57     8.50
-    8    HLA-C0702  RWKPSSQPTIP    RWKPSQPTI      0      0      0      4      1   RWKPSSQPTI              11         0.067     24348.09    11.00
-    9    HLA-C0702  WKPSSQPTIPI    WKPSPTIPI      0      0      0      4      2  WKPSSQPTIPI              11         0.030     36010.69    26.00
+    0    HLA-C0702  VDNSKMALNSE    VDNSMALNS      0      0      0      4      1   VDNSKMALNS              11         0.004     47972.42    99.00
+    1    HLA-C0702  DNSKMALNSEA    SKMALNSEA      2      0      0      0      0    SKMALNSEA              11         0.005     47617.68    95.00
+    2    HLA-C0702  NSKMALNSEAL    SKMANSEAL      1      0      0      4      1   SKMALNSEAL              11         0.022     39227.52    35.00
+    3    HLA-C0702  SKMALNSEALS    SKMANSEAL      0      0      0      4      1   SKMALNSEAL              11         0.021     39689.89    36.00
+    4    HLA-C0702  KMALNSEALSV    KMALNSEAL      0      0      0      0      0    KMALNSEAL              11         0.012     43785.72    55.00
+    5    HLA-C0702  MALNSEALSVV    MLNSEALSV      0      0      0      1      1   MALNSEALSV              11         0.007     46258.73    80.00
+    6    HLA-C0702  ALNSEALSVVS    ALNSEALSV      0      0      0      0      0    ALNSEALSV              11         0.006     46724.03    85.00
+    7    HLA-C0702  LNSEALSVVSE    LNSEALSVV      0      0      0      0      0    LNSEALSVV              11         0.005     47480.33    95.00
+    8    HLA-C0702  NSEALSVVSED    SEALSVVSE      1      0      0      0      0    SEALSVVSE              11         0.005     47498.83    95.00
+    9    HLA-C0702  SEALSVVSEDQ    SEALSVVSQ      0      0      0      8      2  SEALSVVSEDQ              11         0.005     47517.33    95.00
 -----------------------------------------------------------------------------------
 
 Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
@@ -1226,19 +1076,17 @@ Protein 11. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  VDNSKMALNSE    VDNSMALNS      0      0      0      4      1   VDNSKMALNS              12         0.004     47972.42    99.00
-    1    HLA-C0702  DNSKMALNSEA    SKMALNSEA      2      0      0      0      0    SKMALNSEA              12         0.005     47617.68    95.00
-    2    HLA-C0702  NSKMALNSEAL    SKMANSEAL      1      0      0      4      1   SKMALNSEAL              12         0.022     39227.52    35.00
-    3    HLA-C0702  SKMALNSEALS    SKMANSEAL      0      0      0      4      1   SKMALNSEAL              12         0.021     39689.89    36.00
-    4    HLA-C0702  KMALNSEALSV    KMALNSEAL      0      0      0      0      0    KMALNSEAL              12         0.012     43785.72    55.00
-    5    HLA-C0702  MALNSEALSVV    MLNSEALSV      0      0      0      1      1   MALNSEALSV              12         0.007     46258.73    80.00
-    6    HLA-C0702  ALNSEALSVVS    ALNSEALSV      0      0      0      0      0    ALNSEALSV              12         0.006     46724.03    85.00
-    7    HLA-C0702  LNSEALSVVSE    LNSEALSVV      0      0      0      0      0    LNSEALSVV              12         0.005     47480.33    95.00
-    8    HLA-C0702  NSEALSVVSED    SEALSVVSE      1      0      0      0      0    SEALSVVSE              12         0.005     47498.83    95.00
-    9    HLA-C0702  SEALSVVSEDQ    SEALSVVSQ      0      0      0      8      2  SEALSVVSEDQ              12         0.005     47517.33    95.00
+    0    HLA-C0702  ESGCEERGAAG    SGCERGAAG      1      0      0      3      1   SGCEERGAAG              13         0.005     47458.75    95.00
+    1    HLA-C0702  SGCEERGAAGS    SGCERGAAG      0      0      0      3      1   SGCEERGAAG              13         0.005     47496.77    95.00
+    2    HLA-C0702  GCEERGAAGSL    GCEERGAAL      0      0      0      8      2  GCEERGAAGSL              13         0.013     43399.90    55.00
+    3    HLA-C0702  CEERGAAGSLI    CEERGAASL      0      0      0      7      1   CEERGAAGSL              13         0.010     44847.74    65.00
+    4    HLA-C0702  EERGAAGSLIS    EERGAAGSL      0      0      0      0      0    EERGAAGSL              13         0.009     45215.61    70.00
+    5    HLA-C0702  ERGAAGSLISC    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              13         0.007     46154.76    75.00
+    6    HLA-C0702  RGAAGSLISCE    RGAAGSLSC      0      0      0      7      1   RGAAGSLISC              13         0.005     47404.36    95.00
+    7    HLA-C0702  GAAGSLISCEX    GAAGSLISX      0      0      0      8      2  GAAGSLISCEX              13         0.004     47934.04    99.00
 -----------------------------------------------------------------------------------
 
-Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+Protein 13. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -1246,37 +1094,19 @@ Protein 12. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  ESGCEERGAAG    SGCERGAAG      1      0      0      3      1   SGCEERGAAG              14         0.005     47458.75    95.00
-    1    HLA-C0702  SGCEERGAAGS    SGCERGAAG      0      0      0      3      1   SGCEERGAAG              14         0.005     47496.77    95.00
-    2    HLA-C0702  GCEERGAAGSL    GCEERGAAL      0      0      0      8      2  GCEERGAAGSL              14         0.013     43399.90    55.00
-    3    HLA-C0702  CEERGAAGSLI    CEERGAASL      0      0      0      7      1   CEERGAAGSL              14         0.010     44847.74    65.00
-    4    HLA-C0702  EERGAAGSLIS    EERGAAGSL      0      0      0      0      0    EERGAAGSL              14         0.009     45215.61    70.00
-    5    HLA-C0702  ERGAAGSLISC    ERGAAGSLI      0      0      0      0      0    ERGAAGSLI              14         0.007     46154.76    75.00
-    6    HLA-C0702  RGAAGSLISCE    RGAAGSLSC      0      0      0      7      1   RGAAGSLISC              14         0.005     47404.36    95.00
-    7    HLA-C0702  GAAGSLISCEX    GAAGSLISX      0      0      0      8      2  GAAGSLISCEX              14         0.004     47934.04    99.00
+    0    HLA-C0702  KGSGALSQSQP    KGSGSQSQP      0      0      0      4      2  KGSGALSQSQP              14         0.004     47835.07    99.00
+    1    HLA-C0702  GSGALSQSQPS    SGLSQSQPS      1      0      0      2      1   SGALSQSQPS              14         0.005     47498.30    95.00
+    2    HLA-C0702  SGALSQSQPSL    SGSQSQPSL      0      0      0      2      2  SGALSQSQPSL              14         0.016     42279.19    47.00
+    3    HLA-C0702  GALSQSQPSLN    GALSQSQPL      0      0      0      8      1   GALSQSQPSL              14         0.013     43565.96    55.00
+    4    HLA-C0702  ALSQSQPSLNP    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              14         0.011     44314.74    60.00
+    5    HLA-C0702  LSQSQPSLNPG    SQSPSLNPG      1      0      0      3      1   SQSQPSLNPG              14         0.006     46971.89    85.00
+    6    HLA-C0702  SQSQPSLNPGG    SQSPSLNPG      0      0      0      3      1   SQSQPSLNPG              14         0.006     47052.27    90.00
+    7    HLA-C0702  QSQPSLNPGGS    SQPSNPGGS      1      0      0      4      1   SQPSLNPGGS              14         0.005     47422.31    95.00
+    8    HLA-C0702  SQPSLNPGGSQ    SQLNPGGSQ      0      0      0      2      2  SQPSLNPGGSQ              14         0.006     47096.59    90.00
+    9    HLA-C0702  QPSLNPGGSQS    SLNPGGSQS      2      0      0      0      0    SLNPGGSQS              14         0.008     45906.23    75.00
 -----------------------------------------------------------------------------------
 
-Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 8
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702  KGSGALSQSQP    KGSGSQSQP      0      0      0      4      2  KGSGALSQSQP              15         0.004     47835.07    99.00
-    1    HLA-C0702  GSGALSQSQPS    SGLSQSQPS      1      0      0      2      1   SGALSQSQPS              15         0.005     47498.30    95.00
-    2    HLA-C0702  SGALSQSQPSL    SGSQSQPSL      0      0      0      2      2  SGALSQSQPSL              15         0.016     42279.19    47.00
-    3    HLA-C0702  GALSQSQPSLN    GALSQSQPL      0      0      0      8      1   GALSQSQPSL              15         0.013     43565.96    55.00
-    4    HLA-C0702  ALSQSQPSLNP    ALSQSQPSL      0      0      0      0      0    ALSQSQPSL              15         0.011     44314.74    60.00
-    5    HLA-C0702  LSQSQPSLNPG    SQSPSLNPG      1      0      0      3      1   SQSQPSLNPG              15         0.006     46971.89    85.00
-    6    HLA-C0702  SQSQPSLNPGG    SQSPSLNPG      0      0      0      3      1   SQSQPSLNPG              15         0.006     47052.27    90.00
-    7    HLA-C0702  QSQPSLNPGGS    SQPSNPGGS      1      0      0      4      1   SQPSLNPGGS              15         0.005     47422.31    95.00
-    8    HLA-C0702  SQPSLNPGGSQ    SQLNPGGSQ      0      0      0      2      2  SQPSLNPGGSQ              15         0.006     47096.59    90.00
-    9    HLA-C0702  QPSLNPGGSQS    SLNPGGSQS      2      0      0      0      0    SLNPGGSQS              15         0.008     45906.23    75.00
------------------------------------------------------------------------------------
-
-Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+Protein 14. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -1284,38 +1114,18 @@ Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  KGSGALSQSQV    KGSGSQSQV      0      0      0      4      2  KGSGALSQSQV              16         0.005     47508.08    95.00
-    1    HLA-C0702  GSGALSQSQVW    SGLSQSQVW      1      0      0      2      1   SGALSQSQVW              16         0.006     46649.27    80.00
-    2    HLA-C0702  SGALSQSQVWH    SLSQSQVWH      0      0      0      1      2  SGALSQSQVWH              16         0.009     45463.82    70.00
-    3    HLA-C0702  GALSQSQVWHS    ALSQSQVWH      1      0      0      0      0    ALSQSQVWH              16         0.007     46168.25    75.00
-    4    HLA-C0702  ALSQSQVWHSH    SQSQVWHSH      2      0      0      0      0    SQSQVWHSH              16         0.009     45372.44    70.00
-    5    HLA-C0702  LSQSQVWHSHK    SQSQWHSHK      1      0      0      4      1   SQSQVWHSHK              16         0.009     45190.19    65.00
-    6    HLA-C0702  SQSQVWHSHKG    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              16         0.009     45407.80    70.00
-    7    HLA-C0702  QSQVWHSHKGG    SQWHSHKGG      1      0      0      2      1   SQVWHSHKGG              16         0.005     47607.88    95.00
-    8    HLA-C0702  SQVWHSHKGGX    SWHSHKGGX      0      0      0      1      2  SQVWHSHKGGX              16         0.014     42812.25    50.00
+    0    HLA-C0702  KGSGALSQSQV    KGSGSQSQV      0      0      0      4      2  KGSGALSQSQV              15         0.005     47508.08    95.00
+    1    HLA-C0702  GSGALSQSQVW    SGLSQSQVW      1      0      0      2      1   SGALSQSQVW              15         0.006     46649.27    80.00
+    2    HLA-C0702  SGALSQSQVWH    SLSQSQVWH      0      0      0      1      2  SGALSQSQVWH              15         0.009     45463.82    70.00
+    3    HLA-C0702  GALSQSQVWHS    ALSQSQVWH      1      0      0      0      0    ALSQSQVWH              15         0.007     46168.25    75.00
+    4    HLA-C0702  ALSQSQVWHSH    SQSQVWHSH      2      0      0      0      0    SQSQVWHSH              15         0.009     45372.44    70.00
+    5    HLA-C0702  LSQSQVWHSHK    SQSQWHSHK      1      0      0      4      1   SQSQVWHSHK              15         0.009     45190.19    65.00
+    6    HLA-C0702  SQSQVWHSHKG    SQSQVWHSH      0      0      0      0      0    SQSQVWHSH              15         0.009     45407.80    70.00
+    7    HLA-C0702  QSQVWHSHKGG    SQWHSHKGG      1      0      0      2      1   SQVWHSHKGG              15         0.005     47607.88    95.00
+    8    HLA-C0702  SQVWHSHKGGX    SWHSHKGGX      0      0      0      1      2  SQVWHSHKGGX              15         0.014     42812.25    50.00
 -----------------------------------------------------------------------------------
 
-Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702  LEPRLCGGKGV    LRLCGGKGV      0      0      0      1      2  LEPRLCGGKGV              17         0.012     43754.45    55.00
-    1    HLA-C0702  EPRLCGGKGVV    PRLCGGKVV      1      0      0      7      1   PRLCGGKGVV              17         0.012     43724.18    55.00
-    2    HLA-C0702  PRLCGGKGVVF    PRLCGGVVF      0      0      0      5      2  PRLCGGKGVVF              17         0.061     25766.19    12.00
-    3    HLA-C0702  RLCGGKGVVFN    RLCGGKVVF      0      0      0      6      1   RLCGGKGVVF              17         0.025     37973.85    31.00
-    4    HLA-C0702  LCGGKGVVFNC    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              17         0.008     45626.96    70.00
-    5    HLA-C0702  CGGKGVVFNCQ    CGKGVVFNC      0      0      0      1      1   CGGKGVVFNC              17         0.006     46838.95    85.00
-    6    HLA-C0702  GGKGVVFNCQQ    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              17         0.006     46826.77    85.00
-    7    HLA-C0702  GKGVVFNCQQI    GKVFNCQQI      0      0      0      2      2  GKGVVFNCQQI              17         0.006     47042.59    90.00
-    8    HLA-C0702  KGVVFNCQQIL    VVFNCQQIL      2      0      0      0      0    VVFNCQQIL              17         0.021     39655.12    36.00
-    9    HLA-C0702  GVVFNCQQILQ    VVFNCQQIL      1      0      0      0      0    VVFNCQQIL              17         0.019     40824.50    40.00
------------------------------------------------------------------------------------
-
-Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+Protein 15. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 9
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -1323,33 +1133,19 @@ Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  DFIHRHCQDQW    FIHRHCQQW      1      0      0      7      1   FIHRHCQDQW              18         0.020     40335.82    38.00
-    1    HLA-C0702  FIHRHCQDQWF    FRHCQDQWF      0      0      0      1      2  FIHRHCQDQWF              18         0.228      4263.78     1.30 <= WB
-    2    HLA-C0702  IHRHCQDQWFL    HRHQDQWFL      1      0      0      3      1   HRHCQDQWFL              18         0.191      6297.65     2.00 <= WB
-    3    HLA-C0702  HRHCQDQWFLI    HRHCQDQWF      0      0      0      0      0    HRHCQDQWF              18         0.191      6305.08     2.00 <= WB
-    4    HLA-C0702  RHCQDQWFLIA    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              18         0.034     34518.64    23.00
-    5    HLA-C0702  HCQDQWFLIAN    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              18         0.013     43344.99    55.00
-    6    HLA-C0702  CQDQWFLIANR    CQDQWFLAN      0      0      0      7      1   CQDQWFLIAN              18         0.005     47295.22    90.00
-    7    HLA-C0702  QDQWFLIANRS    QWFLIANRS      2      0      0      0      0    QWFLIANRS              18         0.004     47715.68    95.00
-    8    HLA-C0702  DQWFLIANRSY    WFLIANRSY      2      0      0      0      0    WFLIANRSY              18         0.038     32991.55    21.00
-    9    HLA-C0702  QWFLIANRSYK    FLIANRSYK      2      0      0      0      0    FLIANRSYK              18         0.036     33728.20    22.00
+    0    HLA-C0702  LEPRLCGGKGV    LRLCGGKGV      0      0      0      1      2  LEPRLCGGKGV              16         0.012     43754.45    55.00
+    1    HLA-C0702  EPRLCGGKGVV    PRLCGGKVV      1      0      0      7      1   PRLCGGKGVV              16         0.012     43724.18    55.00
+    2    HLA-C0702  PRLCGGKGVVF    PRLCGGVVF      0      0      0      5      2  PRLCGGKGVVF              16         0.061     25766.19    12.00
+    3    HLA-C0702  RLCGGKGVVFN    RLCGGKVVF      0      0      0      6      1   RLCGGKGVVF              16         0.025     37973.85    31.00
+    4    HLA-C0702  LCGGKGVVFNC    LCGGKGVVF      0      0      0      0      0    LCGGKGVVF              16         0.008     45626.96    70.00
+    5    HLA-C0702  CGGKGVVFNCQ    CGKGVVFNC      0      0      0      1      1   CGGKGVVFNC              16         0.006     46838.95    85.00
+    6    HLA-C0702  GGKGVVFNCQQ    GGKGVVFNC      0      0      0      0      0    GGKGVVFNC              16         0.006     46826.77    85.00
+    7    HLA-C0702  GKGVVFNCQQI    GKVFNCQQI      0      0      0      2      2  GKGVVFNCQQI              16         0.006     47042.59    90.00
+    8    HLA-C0702  KGVVFNCQQIL    VVFNCQQIL      2      0      0      0      0    VVFNCQQIL              16         0.021     39655.12    36.00
+    9    HLA-C0702  GVVFNCQQILQ    VVFNCQQIL      1      0      0      0      0    VVFNCQQIL              16         0.019     40824.50    40.00
 -----------------------------------------------------------------------------------
 
-Protein 18. Allele HLA-C0702. Number of high binders 0. Number of weak binders 3. Number of peptides 10
-
------------------------------------------------------------------------------------
-# Rank Threshold for Strong binding peptides   0.500
-# Rank Threshold for Weak binding peptides   2.000
------------------------------------------------------------------------------------
-  pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
------------------------------------------------------------------------------------
-    0    HLA-C0702  VSRVGKAIDKD    SRVGKAIDK      1      0      0      0      0    SRVGKAIDK              19         0.006     46958.17    85.00
-    1    HLA-C0702  SRVGKAIDKDS    SRKAIDKDS      0      0      0      2      2  SRVGKAIDKDS              19         0.007     46466.92    80.00
-    2    HLA-C0702  RVGKAIDKDSL    RKAIDKDSL      0      0      0      1      2  RVGKAIDKDSL              19         0.009     45460.39    70.00
-    3    HLA-C0702  VGKAIDKDSLX    VGKAIDKSL      0      0      0      7      1   VGKAIDKDSL              19         0.007     46136.79    75.00
------------------------------------------------------------------------------------
-
-Protein 19. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 4
+Protein 16. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
 
 -----------------------------------------------------------------------------------
 # Rank Threshold for Strong binding peptides   0.500
@@ -1357,18 +1153,18 @@ Protein 19. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0
 -----------------------------------------------------------------------------------
   pos          HLA      peptide         Core Offset  I_pos  I_len  D_pos  D_len        iCore        Identity 1-log50k(aff) Affinity(nM)    %Rank  BindLevel
 -----------------------------------------------------------------------------------
-    0    HLA-C0702  VIKFEFDGIEV    IKFEFGIEV      1      0      0      5      1   IKFEFDGIEV              20         0.009     45125.68    65.00
-    1    HLA-C0702  IKFEFDGIEVF    FEFDGIEVF      2      0      0      0      0    FEFDGIEVF              20         0.097     17587.52     6.50
-    2    HLA-C0702  KFEFDGIEVFY    FEFDGIEVF      1      0      0      0      0    FEFDGIEVF              20         0.091     18746.46     7.50
-    3    HLA-C0702  FEFDGIEVFYL    FEFDGVFYL      0      0      0      5      2  FEFDGIEVFYL              20         0.129     12419.11     4.50
-    4    HLA-C0702  EFDGIEVFYLV    FDGIEVFYL      1      0      0      0      0    FDGIEVFYL              20         0.022     39354.21    35.00
-    5    HLA-C0702  FDGIEVFYLVP    FDGIEVFYL      0      0      0      0      0    FDGIEVFYL              20         0.014     42924.03    50.00
-    6    HLA-C0702  DGIEVFYLVPV    IEVFYLVPV      2      0      0      0      0    IEVFYLVPV              20         0.007     46371.99    80.00
-    7    HLA-C0702  GIEVFYLVPVA    IEVFYLVPV      1      0      0      0      0    IEVFYLVPV              20         0.007     46520.74    80.00
-    8    HLA-C0702  IEVFYLVPVAF    VFYLVPVAF      2      0      0      0      0    VFYLVPVAF              20         0.098     17327.24     6.50
-    9    HLA-C0702  EVFYLVPVAFS    VFYLVPVAF      1      0      0      0      0    VFYLVPVAF              20         0.093     18201.41     7.00
+    0    HLA-C0702  DFIHRHCQDQW    FIHRHCQQW      1      0      0      7      1   FIHRHCQDQW              17         0.020     40335.82    38.00
+    1    HLA-C0702  FIHRHCQDQWF    FRHCQDQWF      0      0      0      1      2  FIHRHCQDQWF              17         0.228      4263.78     1.30 <= WB
+    2    HLA-C0702  IHRHCQDQWFL    HRHQDQWFL      1      0      0      3      1   HRHCQDQWFL              17         0.191      6297.65     2.00 <= WB
+    3    HLA-C0702  HRHCQDQWFLI    HRHCQDQWF      0      0      0      0      0    HRHCQDQWF              17         0.191      6305.08     2.00 <= WB
+    4    HLA-C0702  RHCQDQWFLIA    RHCQDQWFL      0      0      0      0      0    RHCQDQWFL              17         0.034     34518.64    23.00
+    5    HLA-C0702  HCQDQWFLIAN    HCQDQWFLI      0      0      0      0      0    HCQDQWFLI              17         0.013     43344.99    55.00
+    6    HLA-C0702  CQDQWFLIANR    CQDQWFLAN      0      0      0      7      1   CQDQWFLIAN              17         0.005     47295.22    90.00
+    7    HLA-C0702  QDQWFLIANRS    QWFLIANRS      2      0      0      0      0    QWFLIANRS              17         0.004     47715.68    95.00
+    8    HLA-C0702  DQWFLIANRSY    WFLIANRSY      2      0      0      0      0    WFLIANRSY              17         0.038     32991.55    21.00
+    9    HLA-C0702  QWFLIANRSYK    FLIANRSYK      2      0      0      0      0    FLIANRSYK              17         0.036     33728.20    22.00
 -----------------------------------------------------------------------------------
 
-Protein 20. Allele HLA-C0702. Number of high binders 0. Number of weak binders 0. Number of peptides 10
+Protein 17. Allele HLA-C0702. Number of high binders 0. Number of weak binders 3. Number of peptides 10
 
 -----------------------------------------------------------------------------------
