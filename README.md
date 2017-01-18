@@ -128,7 +128,9 @@ Examples are provided for you to test the code.
 
 updated BedpeAnnotator to v 0.2.0, which includes a new column for transcript Ids, a new column for lengths of nucleotides in the coding regions at 5p transcripts, a new column for whether the peptides are in-frame, and a new column for whether the fusion transcript follows canonical dinucleotides. 
 
+01-17-2017: INTEGRATE-Neo v 1.2.1
 
+updated BedpeAnnotator to v 0.2.1, which includes a bug fixing.
   
 
 
