@@ -478,8 +478,8 @@ int Annotate::annotate(Bedpe & bedpe, Gene& g, Reference & ref)
                 {
                     bestCanonical=fjtvec[i].isCanonical;
                 }
+                preindex=fjtvec[i].fusion_id;
             }
-            preindex=fjtvec[i].fusion_id;
         }
         else
         {

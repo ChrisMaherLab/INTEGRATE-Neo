@@ -24,7 +24,7 @@ map<int,char> intChar;
 map<char,char> charChar;
 map<string,char> tableAmino;
 
-string version("0.2.1");
+string version("0.2.2");
 
 int usage()
 {
